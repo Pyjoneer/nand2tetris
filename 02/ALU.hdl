@@ -42,32 +42,26 @@ CHIP ALU {
         ng; // 1 if (out < 0),  0 otherwise
 
     PARTS:
-        // x and y bitwise negations
-        Not16(in=x, out=notx);
-        Mux16(a=x, b[0..15]=false, sel=zx, out=zdx);
-
-        Not16(in=y, out=noty);
-        Mux16(a=y, b[0..15]=false, sel=zy, out=zdy);
-
         // Multiplex x, zx, not x
-        Mux16(a=x, b=notx, sel=nx, out=optx);
-        Mux16(a=optx, b=zdx, sel=zx, out=opx);
+        Mux16(a=x, b[0..15]=false, sel=zx, out=zdx);
+        Not16(in=zdx, out=notx);
+        Mux16(a=zdx, b=notx, sel=nx, out=opx);
 
         // Multiplex y, zy, not y
-        Mux16(a=y, b=noty, sel=ny, out=opty);
-        Mux16(a=opty, b=zdy, sel=zy, out=opy);
+        Mux16(a=y, b[0..15]=false, sel=zy, out=zdy);
+        Not16(in=zdy, out=noty);
+        Mux16(a=zdy, b=noty, sel=ny, out=opy);
 
         // Function
         And16(a=opx, b=opy, out=band);
         Not16(in=band, out=notband);
         Add16(a=opx, b=opy, out=sum);
         Not16(in=sum, out=notsum);
-        Mux4Way16(a=band, b=sum, c=notband, d=notsum, sel[0]=f, sel[1]=no, out=out, out=fout);
-
+        Mux4Way16(a=band, b=sum, c=notband, d=notsum, sel[0]=f, sel[1]=no, out[0..7]=fout0, out[8..15]=fout1, out=out, out[15]=ng);
 
         // ZR status
-        Or8Way(in=x[0..7], out=nzr0);
-        Or8Way(in=x[8..15], out=nzr1);
-        Or(a=nzr0, b=nzr1, out=nzr);
-        Not(in=nzr, out=zr);
+        Or8Way(in=fout0, out=zr0);
+        Or8Way(in=fout1, out=zr1);
+        Or(a=zr0, b=zr1, out=zr2);
+        Not(in=zr2, out=zr);
 }
