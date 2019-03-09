@@ -27,5 +27,19 @@ CHIP Memory {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+    	DMux(in=load, sel=address[14], a=lram, b=nlram);	// address[14] selects RAM, or VRAM/KEYB 
+    	DMux(in=nlram, sel=address[13], a=lvram, b=lkbd);	// address[13] selects VRAM, or KEYB
+
+    	// Memory regions
+    	RAM16K(in=in, load=lram, address=address[0..13], out=ram);
+    	Screen(in=in, load=lvram, address=address[0..12], out=vram);
+    	Keyboard(out=kbd);
+
+		// Detect addressing oveflow, if address > 0x6000 -> adroverflow=1
+    	Or8Way(in=address[0..7], out=adroverflow1);
+    	Or8Way(in[0]=adroverflow1, in[1..5]=address[8..12], in[6..7]=false, out=adroverflow);
+		
+		Mux16(a=kbd, b=false, sel=adroverflow, out=kbdout);	// out kbd only if address is exactly 6000, if more output zeros
+		Mux16(a=vram, b=kbdout, sel=address[13], out=out1);
+		Mux16(a=ram, b=out1, sel=address[14], out=out);
 }
