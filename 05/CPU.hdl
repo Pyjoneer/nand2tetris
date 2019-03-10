@@ -39,5 +39,74 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Put your code here:
+        // decode instruction
+        // A <= instruction[15]=0
+        // C <= instruction[15]=1
+        Not(in=instruction[15], out=insc);
+        And(a=instruction[15], b=true, out=insa);  // alias
+        
+        And(a=instruction[11], b=insa, out=zx); // c1
+        And(a=instruction[10], b=insa, out=nx); // c2        
+        And(a=instruction[9], b=insa, out=zy);  // c3
+        And(a=instruction[8], b=insa, out=ny);  // c4
+        And(a=instruction[7], b=insa, out=f);   // c5
+        And(a=instruction[6], b=insa, out=no);  // c6
+
+        // destinations
+        // A <= d1=instruction[5]
+        // D <= d2=instruction[4]
+        // M <= d3=instruction[3]
+
+        // Register A
+        // lva (load value to register a)
+        //      * value from A instruction
+        //      * value from ALU
+        // la (load to register a)
+        //      * if it is instruction A
+        //      * destination in instruction C (d1=1)
+        // select a input
+        //      * if instruction C then select literal from instruction
+        //      * if instruction A then select ALU output
+        Or(a=insc, b=instruction[5], out=la);
+        Mux16(a[0..14]=instruction[0..14], a[15]=false, b=oalu, sel=instruction[15], out=ina);
+        Register(in=ina, load=la, out=ar, out=outa, out[0..14]=addressM);
+
+        // Register D
+        // load is controlled by d2 in C instruction
+        And(a=insa, b=instruction[4], out=ld);
+        Register(in=oalu, load=ld, out=od);
+
+        // ALU
+        // first operand is always D
+        // second operand is A if instruction[12] == 0, is M if instruction[12] == 1
+        Mux16(a=outa, b=m, sel=instruction[12], out=rop);
+        ALU(
+            x=od, 
+            y=rop, 
+            zx=zx,
+            nx=nx,
+            zy=zy,
+            ny=ny,
+            f=f,
+            no=no,
+            out=oalu,
+            zr=zr,
+            ng=lt
+        );
+
+        // Additional ALU flags
+        Not(in=zr, out=nzr);
+        Or(a=zr, b=ltz, out=lez);
+
+        // ALU computation output from CPU
+        And16(a=oalu, b=oalu, out=outM);  // out to memory, alias
+        And(a=insc, b=instruction[3], out=writeM);
+
+
+        // Jump to address stored in A if
+        // j1=1 => out < 0
+        // j2=1 => out == 0
+        // j3=1 => out > 0
+
+        PC(in=, load=, inc=, reset=reset, out=pc);
 }
