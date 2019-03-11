@@ -97,8 +97,7 @@ CHIP CPU {
 
         // Jump to address stored in A if at least one j1, j2, j3 is true
         // Conditions
-        // j1=1 and out < 0
-        // j2=1 and out == 0
+        // j1=1 and out < 0        // j2=1 and out == 0
         // j3=1 and out > 0
         And(a=nzr, b=gtz, out=pos);
         And(a=instruction[0], b=pos, out=j3);
