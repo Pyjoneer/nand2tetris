@@ -69,44 +69,37 @@ CHIP CPU {
         //      * if instruction A then select ALU output
         Or(a=insc, b=instruction[5], out=la);
         Mux16(a[0..14]=instruction[0..14], a[15]=false, b=oalu, sel=instruction[15], out=ina);
-        Register(in=ina, load=la, out=ar, out=outa, out[0..14]=addressM);
+        ARegister(in=ina, load=la, out=ar, out=outa, out[0..14]=addressM);
 
         // Register D
         // load is controlled by d2 in C instruction
         And(a=insa, b=instruction[4], out=ld);
-        Register(in=oalu, load=ld, out=od);
+        DRegister(in=oalu, load=ld, out=od);
 
         // ALU
         // first operand is always D
         // second operand is A if instruction[12] == 0, is M if instruction[12] == 1
-        Mux16(a=outa, b=m, sel=instruction[12], out=rop);
-        ALU(
-            x=od, 
-            y=rop, 
-            zx=zx,
-            nx=nx,
-            zy=zy,
-            ny=ny,
-            f=f,
-            no=no,
-            out=oalu,
-            zr=zr,
-            ng=lt
-        );
+        Mux16(a=outa, b=inM, sel=instruction[12], out=rop);
+        ALU(x=od, y=rop, zx=zx, nx=nx, zy=zy, ny=ny, f=f, no=no, out=oalu, zr=zr, ng=ltz);
 
         // Additional ALU flags
         Not(in=zr, out=nzr);
         Or(a=zr, b=ltz, out=lez);
 
+        // Write destination
         // ALU computation output from CPU
+        // d3 => instruction[3]
+        // d2 => instruction[4]
+        // d1 => instruction[5]
         And16(a=oalu, b=oalu, out=outM);  // out to memory, alias
         And(a=insc, b=instruction[3], out=writeM);
 
-
-        // Jump to address stored in A if
+        // Jump to address stored in A if at least one j1, j2, j3 is true
         // j1=1 => out < 0
         // j2=1 => out == 0
         // j3=1 => out > 0
+        Or(a=instruction[0], b=instruction[1], out=jmp12);
+        Or(a=jmp12, b=instruction[2], out=jmp);
 
-        PC(in=, load=, inc=, reset=reset, out=pc);
+        PC(in=ar, load=jmp, inc=true, reset=reset, out[0..14]=pc);
 }
