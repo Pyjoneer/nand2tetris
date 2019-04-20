@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN74CBT16233
+F http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf
+$ENDCMP
+#
 #End Doc Library
