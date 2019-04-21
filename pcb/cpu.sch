@@ -1965,10 +1965,6 @@ $EndComp
 Connection ~ 18350 2850
 Wire Wire Line
 	18350 2850 20000 2850
-Wire Wire Line
-	18850 1900 19150 1900
-Wire Wire Line
-	19150 1900 19150 1400
 NoConn ~ 20500 1900
 Text GLabel 20500 1700 2    50   Input ~ 0
 sum15
@@ -2002,14 +1998,6 @@ Text GLabel 15650 1500 2    50   Input ~ 0
 sum1
 Text GLabel 15650 1400 2    50   Input ~ 0
 sum0
-Wire Wire Line
-	17500 1400 17850 1400
-Wire Wire Line
-	17500 1900 17500 1400
-Wire Wire Line
-	17250 1900 17500 1900
-Wire Wire Line
-	19150 1400 19500 1400
 Text GLabel 19500 2400 0    50   Input ~ 0
 opy15
 Text GLabel 19500 1900 0    50   Input ~ 0
@@ -2028,10 +2016,6 @@ Text GLabel 19500 1600 0    50   Input ~ 0
 opx12
 Wire Wire Line
 	20000 2850 20000 2700
-Wire Wire Line
-	15900 1400 16250 1400
-Wire Wire Line
-	15900 1900 15900 1400
 Text GLabel 17850 2400 0    50   Input ~ 0
 opy11
 Text GLabel 17850 1900 0    50   Input ~ 0
@@ -2082,8 +2066,6 @@ Text GLabel 16250 2100 0    50   Input ~ 0
 opy4
 Text GLabel 16250 1600 0    50   Input ~ 0
 opx4
-Wire Wire Line
-	15650 1900 15900 1900
 NoConn ~ 14650 1400
 Connection ~ 17400 1100
 Wire Wire Line
@@ -2475,6 +2457,311 @@ Wire Wire Line
 Connection ~ 18150 4300
 Wire Wire Line
 	18150 3700 18700 3700
+Connection ~ 18150 3700
+$Comp
+L nand2tetris:SN74CBT16233 U?
+U 1 1 5E58FF8C
+P 4100 8800
+F 0 "U?" H 4100 10731 50  0000 C CNN
+F 1 "SN74CBT16233" H 4100 10640 50  0000 C CNN
+F 2 "" H 4200 8750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 4100 10639 50  0001 C CNN
+	1    4100 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L nand2tetris:SN74CBT16233 U?
+U 1 1 5E592386
+P 4100 12900
+F 0 "U?" H 4100 14831 50  0000 C CNN
+F 1 "SN74CBT16233" H 4100 14740 50  0000 C CNN
+F 2 "" H 4200 12850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 4100 14739 50  0001 C CNN
+	1    4100 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L nand2tetris:SN74CBT16233 U?
+U 1 1 5E596A02
+P 6100 8800
+F 0 "U?" H 6100 10731 50  0000 C CNN
+F 1 "SN74CBT16233" H 6100 10640 50  0000 C CNN
+F 2 "" H 6200 8750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 6100 10639 50  0001 C CNN
+	1    6100 8800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4050 10650
+NoConn ~ 4150 10650
+NoConn ~ 4250 10650
+NoConn ~ 4500 10650
+NoConn ~ 4050 14750
+NoConn ~ 4150 14750
+NoConn ~ 4250 14750
+NoConn ~ 4500 14750
+NoConn ~ 6050 10650
+NoConn ~ 6150 10650
+NoConn ~ 6250 10650
+NoConn ~ 6500 10650
+NoConn ~ 6200 7050
+NoConn ~ 4200 11150
+NoConn ~ 4200 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BD830
+P 4400 10650
+F 0 "#PWR?" H 4400 10400 50  0001 C CNN
+F 1 "GND" H 4405 10477 50  0000 C CNN
+F 2 "" H 4400 10650 50  0001 C CNN
+F 3 "" H 4400 10650 50  0001 C CNN
+	1    4400 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BE02F
+P 4400 14750
+F 0 "#PWR?" H 4400 14500 50  0001 C CNN
+F 1 "GND" H 4405 14577 50  0000 C CNN
+F 2 "" H 4400 14750 50  0001 C CNN
+F 3 "" H 4400 14750 50  0001 C CNN
+	1    4400 14750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BFA70
+P 6400 10650
+F 0 "#PWR?" H 6400 10400 50  0001 C CNN
+F 1 "GND" H 6405 10477 50  0000 C CNN
+F 2 "" H 6400 10650 50  0001 C CNN
+F 3 "" H 6400 10650 50  0001 C CNN
+	1    6400 10650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 10650 3    50   Input ~ 0
+f
+Text GLabel 3950 14750 3    50   Input ~ 0
+f
+Text GLabel 5950 10650 3    50   Input ~ 0
+no
+Wire Wire Line
+	4700 7250 5500 7250
+Wire Wire Line
+	4700 7350 5500 7350
+Wire Wire Line
+	4700 7450 5500 7450
+Wire Wire Line
+	4700 7550 5500 7550
+Wire Wire Line
+	4700 7650 5500 7650
+Wire Wire Line
+	4700 7750 5500 7750
+Wire Wire Line
+	4700 7850 5500 7850
+Wire Wire Line
+	4700 7950 5500 7950
+Wire Wire Line
+	4700 8050 5500 8050
+Wire Wire Line
+	4700 8150 5500 8150
+Wire Wire Line
+	4700 8250 5500 8250
+Wire Wire Line
+	4700 8350 5500 8350
+Wire Wire Line
+	4700 8450 5500 8450
+Wire Wire Line
+	4700 8550 5500 8550
+Wire Wire Line
+	4700 8650 5500 8650
+Wire Wire Line
+	4700 8750 5500 8750
+Wire Wire Line
+	16250 1400 15950 1400
+Wire Wire Line
+	15950 1400 15950 1900
+Wire Wire Line
+	15650 1900 15950 1900
+Wire Wire Line
+	17550 1900 17550 1400
+Wire Wire Line
+	17550 1400 17850 1400
+Wire Wire Line
+	17250 1900 17550 1900
+Wire Wire Line
+	19200 1900 19200 1400
+Wire Wire Line
+	19200 1400 19500 1400
+Wire Wire Line
+	18850 1900 19200 1900
+Wire Wire Line
+	5500 8900 5200 8900
+Wire Wire Line
+	5500 9000 5200 9000
+Wire Wire Line
+	5500 9100 5200 9100
+Wire Wire Line
+	5500 9200 5200 9200
+Wire Wire Line
+	5500 9300 5200 9300
+Wire Wire Line
+	5500 9400 5200 9400
+Wire Wire Line
+	5500 9500 5200 9500
+Wire Wire Line
+	5500 9600 5200 9600
+Wire Wire Line
+	5500 9700 5200 9700
+Wire Wire Line
+	5500 9800 5200 9800
+Wire Wire Line
+	5500 9900 5200 9900
+Wire Wire Line
+	5500 10000 5200 10000
+Wire Wire Line
+	5500 10100 5200 10100
+Wire Wire Line
+	5500 10200 5200 10200
+Wire Wire Line
+	5500 10300 5200 10300
+Wire Wire Line
+	5500 10400 5200 10400
+Entry Wire Line
+	5100 8800 5200 8900
+Entry Wire Line
+	5100 8900 5200 9000
+Entry Wire Line
+	5100 9000 5200 9100
+Entry Wire Line
+	5100 9100 5200 9200
+Entry Wire Line
+	5100 9200 5200 9300
+Entry Wire Line
+	5100 9300 5200 9400
+Entry Wire Line
+	5100 9400 5200 9500
+Entry Wire Line
+	5100 9500 5200 9600
+Entry Wire Line
+	5100 9600 5200 9700
+Entry Wire Line
+	5100 9700 5200 9800
+Entry Wire Line
+	5100 9800 5200 9900
+Entry Wire Line
+	5100 9900 5200 10000
+Entry Wire Line
+	5100 10000 5200 10100
+Entry Wire Line
+	5100 10100 5200 10200
+Entry Wire Line
+	5100 10200 5200 10300
+Entry Wire Line
+	5100 10300 5200 10400
+Entry Wire Line
+	5000 11350 5100 11450
+Entry Wire Line
+	5000 11450 5100 11550
+Entry Wire Line
+	5000 11550 5100 11650
+Entry Wire Line
+	5000 11650 5100 11750
+Entry Wire Line
+	5000 11750 5100 11850
+Entry Wire Line
+	5000 11850 5100 11950
+Entry Wire Line
+	5000 11950 5100 12050
+Entry Wire Line
+	5000 12050 5100 12150
+Entry Wire Line
+	5000 12150 5100 12250
+Entry Wire Line
+	5000 12250 5100 12350
+Entry Wire Line
+	5000 12350 5100 12450
+Entry Wire Line
+	5000 12450 5100 12550
+Entry Wire Line
+	5000 12550 5100 12650
+Entry Wire Line
+	5000 12650 5100 12750
+Entry Wire Line
+	5000 12750 5100 12850
+Entry Wire Line
+	5000 12850 5100 12950
+Wire Wire Line
+	4700 11350 5000 11350
+$Comp
+L power:VCC #PWR?
+U 1 1 5E994F72
+P 6000 6850
+F 0 "#PWR?" H 6000 6700 50  0001 C CNN
+F 1 "VCC" H 6017 7023 50  0000 C CNN
+F 2 "" H 6000 6850 50  0001 C CNN
+F 3 "" H 6000 6850 50  0001 C CNN
+	1    6000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5E996D24
+P 4000 6850
+F 0 "#PWR?" H 4000 6700 50  0001 C CNN
+F 1 "VCC" H 4017 7023 50  0000 C CNN
+F 2 "" H 4000 6850 50  0001 C CNN
+F 3 "" H 4000 6850 50  0001 C CNN
+	1    4000 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6850 4000 7050
+Wire Wire Line
+	4700 11450 5000 11450
+Wire Wire Line
+	4700 11550 5000 11550
+Wire Wire Line
+	4700 11650 5000 11650
+Wire Wire Line
+	4700 11750 5000 11750
+Wire Wire Line
+	4700 11850 5000 11850
+Wire Wire Line
+	4700 11950 5000 11950
+Wire Wire Line
+	4700 12050 5000 12050
+Wire Wire Line
+	4700 12150 5000 12150
+Wire Wire Line
+	4700 12250 5000 12250
+Wire Wire Line
+	4700 12350 5000 12350
+Wire Wire Line
+	4700 12450 5000 12450
+Wire Wire Line
+	4700 12550 5000 12550
+Wire Wire Line
+	4700 12650 5000 12650
+Wire Wire Line
+	4700 12750 5000 12750
+Wire Wire Line
+	4700 12850 5000 12850
+Wire Wire Line
+	6000 6850 6000 7050
+$Comp
+L power:VCC #PWR?
+U 1 1 5EAADCDF
+P 4000 10950
+F 0 "#PWR?" H 4000 10800 50  0001 C CNN
+F 1 "VCC" H 4017 11123 50  0000 C CNN
+F 2 "" H 4000 10950 50  0001 C CNN
+F 3 "" H 4000 10950 50  0001 C CNN
+	1    4000 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 10950 4000 11150
 Wire Bus Line
 	6550 1000 6550 2550
 Wire Bus Line
@@ -2483,5 +2770,230 @@ Wire Bus Line
 	5100 1000 5100 6500
 Wire Bus Line
 	10700 950  10700 6450
-Connection ~ 18150 3700
+Wire Bus Line
+	5100 8800 5100 12950
+Text GLabel 3500 7250 0    50   Input ~ 0
+band0
+Text GLabel 3500 7350 0    50   Input ~ 0
+band1
+Text GLabel 3500 7450 0    50   Input ~ 0
+band2
+Text GLabel 3500 7550 0    50   Input ~ 0
+band3
+Text GLabel 3500 7650 0    50   Input ~ 0
+band4
+Text GLabel 3500 7750 0    50   Input ~ 0
+band5
+Text GLabel 3500 7850 0    50   Input ~ 0
+band6
+Text GLabel 3500 7950 0    50   Input ~ 0
+band7
+Text GLabel 3500 8050 0    50   Input ~ 0
+band8
+Text GLabel 3500 8150 0    50   Input ~ 0
+band9
+Text GLabel 3500 8250 0    50   Input ~ 0
+band10
+Text GLabel 3500 8350 0    50   Input ~ 0
+band11
+Text GLabel 3500 8450 0    50   Input ~ 0
+band12
+Text GLabel 3500 8550 0    50   Input ~ 0
+band13
+Text GLabel 3500 8650 0    50   Input ~ 0
+band14
+Text GLabel 3500 8750 0    50   Input ~ 0
+band15
+Text GLabel 3500 8900 0    50   Input ~ 0
+sum0
+Text GLabel 3500 9000 0    50   Input ~ 0
+sum1
+Text GLabel 3500 9100 0    50   Input ~ 0
+sum2
+Text GLabel 3500 9200 0    50   Input ~ 0
+sum3
+Text GLabel 3500 9300 0    50   Input ~ 0
+sum4
+Text GLabel 3500 9400 0    50   Input ~ 0
+sum5
+Text GLabel 3500 9500 0    50   Input ~ 0
+sum6
+Text GLabel 3500 9600 0    50   Input ~ 0
+sum7
+Text GLabel 3500 9700 0    50   Input ~ 0
+sum8
+Text GLabel 3500 9800 0    50   Input ~ 0
+sum9
+Text GLabel 3500 9900 0    50   Input ~ 0
+sum10
+Text GLabel 3500 10000 0    50   Input ~ 0
+sum11
+Text GLabel 3500 10100 0    50   Input ~ 0
+sum12
+Text GLabel 3500 10200 0    50   Input ~ 0
+sum13
+Text GLabel 3500 10300 0    50   Input ~ 0
+sum14
+Text GLabel 3500 10400 0    50   Input ~ 0
+sum15
+Text GLabel 3500 11350 0    50   Input ~ 0
+notband0
+Text GLabel 3500 11450 0    50   Input ~ 0
+notband1
+Text GLabel 3500 11550 0    50   Input ~ 0
+notband2
+Text GLabel 3500 11650 0    50   Input ~ 0
+notband3
+Text GLabel 3500 11750 0    50   Input ~ 0
+notband4
+Text GLabel 3500 11850 0    50   Input ~ 0
+notband5
+Text GLabel 3500 11950 0    50   Input ~ 0
+notband6
+Text GLabel 3500 12050 0    50   Input ~ 0
+notband7
+Text GLabel 3500 12150 0    50   Input ~ 0
+notband8
+Text GLabel 3500 12250 0    50   Input ~ 0
+notband9
+Text GLabel 3500 12350 0    50   Input ~ 0
+notband10
+Text GLabel 3500 12450 0    50   Input ~ 0
+notband11
+Text GLabel 3500 12550 0    50   Input ~ 0
+notband12
+Text GLabel 3500 12650 0    50   Input ~ 0
+notband13
+Text GLabel 3500 12750 0    50   Input ~ 0
+notband14
+Text GLabel 3500 12850 0    50   Input ~ 0
+notband15
+Text GLabel 3500 13000 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13100 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13200 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13300 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13400 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13500 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13600 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13700 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13800 0    50   Input ~ 0
+notsum
+Text GLabel 3500 13900 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14000 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14100 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14200 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14300 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14400 0    50   Input ~ 0
+notsum
+Text GLabel 3500 14500 0    50   Input ~ 0
+notsum
+Text Label 5000 11350 2    50   ~ 0
+selnot0
+Text Label 5000 11450 2    50   ~ 0
+selnot1
+Text Label 5000 11550 2    50   ~ 0
+selnot2
+Text Label 5000 11650 2    50   ~ 0
+selnot3
+Text Label 5000 11750 2    50   ~ 0
+selnot4
+Text Label 5000 11850 2    50   ~ 0
+selnot5
+Text Label 5000 11950 2    50   ~ 0
+selnot6
+Text Label 5000 12050 2    50   ~ 0
+selnot7
+Text Label 5000 12150 2    50   ~ 0
+selnot8
+Text Label 5000 12250 2    50   ~ 0
+selnot9
+Text Label 5000 12350 2    50   ~ 0
+selnot10
+Text Label 5000 12450 2    50   ~ 0
+selnot11
+Text Label 5000 12550 2    50   ~ 0
+selnot12
+Text Label 5000 12650 2    50   ~ 0
+selnot13
+Text Label 5000 12750 2    50   ~ 0
+selnot14
+Text Label 5000 12850 2    50   ~ 0
+selnot15
+Text Label 5200 8900 0    50   ~ 0
+selnot0
+Text Label 5200 9000 0    50   ~ 0
+selnot1
+Text Label 5200 9100 0    50   ~ 0
+selnot2
+Text Label 5200 9200 0    50   ~ 0
+selnot3
+Text Label 5200 9300 0    50   ~ 0
+selnot4
+Text Label 5200 9400 0    50   ~ 0
+selnot5
+Text Label 5200 9500 0    50   ~ 0
+selnot6
+Text Label 5200 9600 0    50   ~ 0
+selnot7
+Text Label 5200 9700 0    50   ~ 0
+selnot8
+Text Label 5200 9800 0    50   ~ 0
+selnot9
+Text Label 5200 9900 0    50   ~ 0
+selnot10
+Text Label 5200 10000 0    50   ~ 0
+selnot11
+Text Label 5200 10100 0    50   ~ 0
+selnot12
+Text Label 5200 10200 0    50   ~ 0
+selnot13
+Text Label 5200 10300 0    50   ~ 0
+selnot14
+Text Label 5200 10400 0    50   ~ 0
+selnot15
+Text GLabel 6700 7250 2    50   Input ~ 0
+oalu0
+Text GLabel 6700 7350 2    50   Input ~ 0
+oalu1
+Text GLabel 6700 7450 2    50   Input ~ 0
+oalu2
+Text GLabel 6700 7550 2    50   Input ~ 0
+oalu3
+Text GLabel 6700 7650 2    50   Input ~ 0
+oalu4
+Text GLabel 6700 7750 2    50   Input ~ 0
+oalu5
+Text GLabel 6700 7850 2    50   Input ~ 0
+oalu6
+Text GLabel 6700 7950 2    50   Input ~ 0
+oalu7
+Text GLabel 6700 8050 2    50   Input ~ 0
+oalu8
+Text GLabel 6700 8150 2    50   Input ~ 0
+oalu9
+Text GLabel 6700 8250 2    50   Input ~ 0
+oalu10
+Text GLabel 6700 8350 2    50   Input ~ 0
+oalu11
+Text GLabel 6700 8450 2    50   Input ~ 0
+oalu12
+Text GLabel 6700 8550 2    50   Input ~ 0
+oalu13
+Text GLabel 6700 8650 2    50   Input ~ 0
+oalu14
+Text GLabel 6700 8750 2    50   Input ~ 0
+oalu15
 $EndSCHEMATC
