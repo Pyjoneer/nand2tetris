@@ -1386,484 +1386,484 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 11300 4500 50  0001 C CNN
 	1    11300 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 17550 8000 0    50   Input ~ 0
+Text GLabel 21200 7650 0    50   Input ~ 0
 opx8
-Text GLabel 17550 10450 0    50   Input ~ 0
+Text GLabel 21200 10100 0    50   Input ~ 0
 opy12
-Text GLabel 17550 10250 0    50   Input ~ 0
+Text GLabel 21200 9900 0    50   Input ~ 0
 opx12
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D245D41
-P 17850 10350
-F 0 "U?" H 17850 10675 50  0000 C CNN
-F 1 "74LS08" H 17850 10584 50  0000 C CNN
-F 2 "" H 17850 10350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 10350 50  0001 C CNN
-	1    17850 10350
+P 21500 10000
+F 0 "U?" H 21500 10325 50  0000 C CNN
+F 1 "74LS08" H 21500 10234 50  0000 C CNN
+F 2 "" H 21500 10000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 10000 50  0001 C CNN
+	1    21500 10000
 	1    0    0    -1  
 $EndComp
-Text GLabel 15450 9550 2    50   Input ~ 0
+Text GLabel 20250 9300 2    50   Input ~ 0
 notsum15
-Text GLabel 15450 9150 2    50   Input ~ 0
+Text GLabel 20250 8900 2    50   Input ~ 0
 notsum14
-Text GLabel 15450 8750 2    50   Input ~ 0
+Text GLabel 20250 8500 2    50   Input ~ 0
 notsum13
-Text GLabel 15450 8350 2    50   Input ~ 0
+Text GLabel 20250 8100 2    50   Input ~ 0
 notsum12
-Text GLabel 15450 7950 2    50   Input ~ 0
+Text GLabel 20250 7700 2    50   Input ~ 0
 notsum11
-Text GLabel 15450 7550 2    50   Input ~ 0
+Text GLabel 20250 7300 2    50   Input ~ 0
 notsum10
-Text GLabel 15450 7150 2    50   Input ~ 0
+Text GLabel 20250 6900 2    50   Input ~ 0
 notsum9
-Text GLabel 15450 6750 2    50   Input ~ 0
+Text GLabel 20250 6500 2    50   Input ~ 0
 notsum8
-Text GLabel 15450 6350 2    50   Input ~ 0
+Text GLabel 20250 6100 2    50   Input ~ 0
 notsum7
-Text GLabel 15450 5950 2    50   Input ~ 0
+Text GLabel 20250 5700 2    50   Input ~ 0
 notsum6
-Text GLabel 15450 5550 2    50   Input ~ 0
+Text GLabel 20250 5300 2    50   Input ~ 0
 notsum5
-Text GLabel 15450 5150 2    50   Input ~ 0
+Text GLabel 20250 4900 2    50   Input ~ 0
 notsum4
-Text GLabel 15450 4750 2    50   Input ~ 0
+Text GLabel 20250 4500 2    50   Input ~ 0
 notsum3
-Text GLabel 15450 4350 2    50   Input ~ 0
+Text GLabel 20250 4100 2    50   Input ~ 0
 notsum2
-Text GLabel 15450 3950 2    50   Input ~ 0
+Text GLabel 20250 3700 2    50   Input ~ 0
 notsum1
-Text GLabel 15450 3550 2    50   Input ~ 0
+Text GLabel 20250 3300 2    50   Input ~ 0
 notsum0
-Text GLabel 14900 9550 0    50   Input ~ 0
+Text GLabel 19700 9300 0    50   Input ~ 0
 sum15
-Text GLabel 14900 9150 0    50   Input ~ 0
+Text GLabel 19700 8900 0    50   Input ~ 0
 sum14
-Text GLabel 14900 8750 0    50   Input ~ 0
+Text GLabel 19700 8500 0    50   Input ~ 0
 sum13
-Text GLabel 14900 8350 0    50   Input ~ 0
+Text GLabel 19700 8100 0    50   Input ~ 0
 sum12
-Text GLabel 14900 7950 0    50   Input ~ 0
+Text GLabel 19700 7700 0    50   Input ~ 0
 sum11
-Text GLabel 14900 7550 0    50   Input ~ 0
+Text GLabel 19700 7300 0    50   Input ~ 0
 sum10
-Text GLabel 14900 7150 0    50   Input ~ 0
+Text GLabel 19700 6900 0    50   Input ~ 0
 sum9
-Text GLabel 14900 6750 0    50   Input ~ 0
+Text GLabel 19700 6500 0    50   Input ~ 0
 sum8
-Text GLabel 14900 6350 0    50   Input ~ 0
+Text GLabel 19700 6100 0    50   Input ~ 0
 sum7
-Text GLabel 14900 5950 0    50   Input ~ 0
+Text GLabel 19700 5700 0    50   Input ~ 0
 sum6
-Text GLabel 14900 5550 0    50   Input ~ 0
+Text GLabel 19700 5300 0    50   Input ~ 0
 sum5
-Text GLabel 14900 5150 0    50   Input ~ 0
+Text GLabel 19700 4900 0    50   Input ~ 0
 sum4
-Text GLabel 14900 4750 0    50   Input ~ 0
+Text GLabel 19700 4500 0    50   Input ~ 0
 sum3
-Text GLabel 14900 4350 0    50   Input ~ 0
+Text GLabel 19700 4100 0    50   Input ~ 0
 sum2
-Text GLabel 14900 3950 0    50   Input ~ 0
+Text GLabel 19700 3700 0    50   Input ~ 0
 sum1
-Text GLabel 14900 3550 0    50   Input ~ 0
+Text GLabel 19700 3300 0    50   Input ~ 0
 sum0
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015E5
-P 15200 6750
-F 0 "U?" H 15175 7017 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 6926 50  0000 C CNN
-F 2 "" H 15200 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 6750 50  0001 C CNN
-	1    15200 6750
+P 20000 6500
+F 0 "U?" H 19975 6767 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 6676 50  0000 C CNN
+F 2 "" H 20000 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 6500 50  0001 C CNN
+	1    20000 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015DF
-P 15200 7150
-F 0 "U?" H 15175 7417 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 7326 50  0000 C CNN
-F 2 "" H 15200 7150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 7150 50  0001 C CNN
-	1    15200 7150
+P 20000 6900
+F 0 "U?" H 19975 7167 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 7076 50  0000 C CNN
+F 2 "" H 20000 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 6900 50  0001 C CNN
+	1    20000 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015D9
-P 15200 7550
-F 0 "U?" H 15175 7817 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 7726 50  0000 C CNN
-F 2 "" H 15200 7550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 7550 50  0001 C CNN
-	1    15200 7550
+P 20000 7300
+F 0 "U?" H 19975 7567 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 7476 50  0000 C CNN
+F 2 "" H 20000 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 7300 50  0001 C CNN
+	1    20000 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015D3
-P 15200 7950
-F 0 "U?" H 15175 8217 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 8126 50  0000 C CNN
-F 2 "" H 15200 7950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 7950 50  0001 C CNN
-	1    15200 7950
+P 20000 7700
+F 0 "U?" H 19975 7967 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 7876 50  0000 C CNN
+F 2 "" H 20000 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 7700 50  0001 C CNN
+	1    20000 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015CD
-P 15200 8350
-F 0 "U?" H 15175 8617 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 8526 50  0000 C CNN
-F 2 "" H 15200 8350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 8350 50  0001 C CNN
-	1    15200 8350
+P 20000 8100
+F 0 "U?" H 19975 8367 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 8276 50  0000 C CNN
+F 2 "" H 20000 8100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 8100 50  0001 C CNN
+	1    20000 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015C7
-P 15200 8750
-F 0 "U?" H 15175 9017 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 8926 50  0000 C CNN
-F 2 "" H 15200 8750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 8750 50  0001 C CNN
-	1    15200 8750
+P 20000 8500
+F 0 "U?" H 19975 8767 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 8676 50  0000 C CNN
+F 2 "" H 20000 8500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 8500 50  0001 C CNN
+	1    20000 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015C1
-P 15200 9150
-F 0 "U?" H 15175 9417 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 9326 50  0000 C CNN
-F 2 "" H 15200 9150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 9150 50  0001 C CNN
-	1    15200 9150
+P 20000 8900
+F 0 "U?" H 19975 9167 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 9076 50  0000 C CNN
+F 2 "" H 20000 8900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 8900 50  0001 C CNN
+	1    20000 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015BB
-P 15200 9550
-F 0 "U?" H 15175 9817 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 9726 50  0000 C CNN
-F 2 "" H 15200 9550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 9550 50  0001 C CNN
-	1    15200 9550
+P 20000 9300
+F 0 "U?" H 19975 9567 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 9476 50  0000 C CNN
+F 2 "" H 20000 9300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 9300 50  0001 C CNN
+	1    20000 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015B5
-P 15200 3550
-F 0 "U?" H 15175 3817 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 3726 50  0000 C CNN
-F 2 "" H 15200 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 3550 50  0001 C CNN
-	1    15200 3550
+P 20000 3300
+F 0 "U?" H 19975 3567 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 3476 50  0000 C CNN
+F 2 "" H 20000 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 3300 50  0001 C CNN
+	1    20000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015AF
-P 15200 3950
-F 0 "U?" H 15175 4217 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 4126 50  0000 C CNN
-F 2 "" H 15200 3950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 3950 50  0001 C CNN
-	1    15200 3950
+P 20000 3700
+F 0 "U?" H 19975 3967 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 3876 50  0000 C CNN
+F 2 "" H 20000 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 3700 50  0001 C CNN
+	1    20000 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015A9
-P 15200 4350
-F 0 "U?" H 15175 4617 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 4526 50  0000 C CNN
-F 2 "" H 15200 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 4350 50  0001 C CNN
-	1    15200 4350
+P 20000 4100
+F 0 "U?" H 19975 4367 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 4276 50  0000 C CNN
+F 2 "" H 20000 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 4100 50  0001 C CNN
+	1    20000 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D2015A3
-P 15200 4750
-F 0 "U?" H 15175 5017 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 4926 50  0000 C CNN
-F 2 "" H 15200 4750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 4750 50  0001 C CNN
-	1    15200 4750
+P 20000 4500
+F 0 "U?" H 19975 4767 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 4676 50  0000 C CNN
+F 2 "" H 20000 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 4500 50  0001 C CNN
+	1    20000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D20159D
-P 15200 5150
-F 0 "U?" H 15175 5417 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 5326 50  0000 C CNN
-F 2 "" H 15200 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 5150 50  0001 C CNN
-	1    15200 5150
+P 20000 4900
+F 0 "U?" H 19975 5167 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 5076 50  0000 C CNN
+F 2 "" H 20000 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 4900 50  0001 C CNN
+	1    20000 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D201597
-P 15200 5550
-F 0 "U?" H 15175 5817 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 5726 50  0000 C CNN
-F 2 "" H 15200 5550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 5550 50  0001 C CNN
-	1    15200 5550
+P 20000 5300
+F 0 "U?" H 19975 5567 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 5476 50  0000 C CNN
+F 2 "" H 20000 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 5300 50  0001 C CNN
+	1    20000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D201591
-P 15200 5950
-F 0 "U?" H 15175 6217 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 6126 50  0000 C CNN
-F 2 "" H 15200 5950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 5950 50  0001 C CNN
-	1    15200 5950
+P 20000 5700
+F 0 "U?" H 19975 5967 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 5876 50  0000 C CNN
+F 2 "" H 20000 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 5700 50  0001 C CNN
+	1    20000 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5D20158B
-P 15200 6350
-F 0 "U?" H 15175 6617 50  0000 C CNN
-F 1 "74AHCT1G04" H 15175 6526 50  0000 C CNN
-F 2 "" H 15200 6350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 15200 6350 50  0001 C CNN
-	1    15200 6350
+P 20000 6100
+F 0 "U?" H 19975 6367 50  0000 C CNN
+F 1 "74AHCT1G04" H 19975 6276 50  0000 C CNN
+F 2 "" H 20000 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20000 6100 50  0001 C CNN
+	1    20000 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D18E839
-P 17850 11950
-F 0 "U?" H 17850 12275 50  0000 C CNN
-F 1 "74LS08" H 17850 12184 50  0000 C CNN
-F 2 "" H 17850 11950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 11950 50  0001 C CNN
-	1    17850 11950
+P 21500 11600
+F 0 "U?" H 21500 11925 50  0000 C CNN
+F 1 "74LS08" H 21500 11834 50  0000 C CNN
+F 2 "" H 21500 11600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 11600 50  0001 C CNN
+	1    21500 11600
 	1    0    0    -1  
 $EndComp
-Text GLabel 17550 12050 0    50   Input ~ 0
+Text GLabel 21200 11700 0    50   Input ~ 0
 opy15
-Text GLabel 17550 11850 0    50   Input ~ 0
+Text GLabel 21200 11500 0    50   Input ~ 0
 opx15
-Text GLabel 17550 9700 0    50   Input ~ 0
+Text GLabel 21200 9350 0    50   Input ~ 0
 opx11
-Text GLabel 17550 9100 0    50   Input ~ 0
+Text GLabel 21200 8750 0    50   Input ~ 0
 opx10
-Text GLabel 17550 8550 0    50   Input ~ 0
+Text GLabel 21200 8200 0    50   Input ~ 0
 opx9
-Text GLabel 17550 7500 0    50   Input ~ 0
+Text GLabel 21200 7150 0    50   Input ~ 0
 opx7
-Text GLabel 17550 6950 0    50   Input ~ 0
+Text GLabel 21200 6600 0    50   Input ~ 0
 opx6
-Text GLabel 17550 6400 0    50   Input ~ 0
+Text GLabel 21200 6050 0    50   Input ~ 0
 opx5
-Text GLabel 17550 5850 0    50   Input ~ 0
+Text GLabel 21200 5500 0    50   Input ~ 0
 opx4
-Text GLabel 17550 5300 0    50   Input ~ 0
+Text GLabel 21200 4950 0    50   Input ~ 0
 opx3
-Text GLabel 17550 4750 0    50   Input ~ 0
+Text GLabel 21200 4400 0    50   Input ~ 0
 opx2
-Text GLabel 17550 4200 0    50   Input ~ 0
+Text GLabel 21200 3850 0    50   Input ~ 0
 opx1
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D11D3FF
-P 17850 11400
-F 0 "U?" H 17850 11725 50  0000 C CNN
-F 1 "74LS08" H 17850 11634 50  0000 C CNN
-F 2 "" H 17850 11400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 11400 50  0001 C CNN
-	1    17850 11400
+P 21500 11050
+F 0 "U?" H 21500 11375 50  0000 C CNN
+F 1 "74LS08" H 21500 11284 50  0000 C CNN
+F 2 "" H 21500 11050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 11050 50  0001 C CNN
+	1    21500 11050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D105D22
-P 17850 10850
-F 0 "U?" H 17850 11175 50  0000 C CNN
-F 1 "74LS08" H 17850 11084 50  0000 C CNN
-F 2 "" H 17850 10850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 10850 50  0001 C CNN
-	1    17850 10850
+P 21500 10500
+F 0 "U?" H 21500 10825 50  0000 C CNN
+F 1 "74LS08" H 21500 10734 50  0000 C CNN
+F 2 "" H 21500 10500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 10500 50  0001 C CNN
+	1    21500 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D0EE6EA
-P 17850 9800
-F 0 "U?" H 17850 10125 50  0000 C CNN
-F 1 "74LS08" H 17850 10034 50  0000 C CNN
-F 2 "" H 17850 9800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 9800 50  0001 C CNN
-	1    17850 9800
+P 21500 9450
+F 0 "U?" H 21500 9775 50  0000 C CNN
+F 1 "74LS08" H 21500 9684 50  0000 C CNN
+F 2 "" H 21500 9450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 9450 50  0001 C CNN
+	1    21500 9450
 	1    0    0    -1  
 $EndComp
-Text GLabel 17550 4400 0    50   Input ~ 0
+Text GLabel 21200 4050 0    50   Input ~ 0
 opy1
-Text GLabel 17550 11500 0    50   Input ~ 0
+Text GLabel 21200 11150 0    50   Input ~ 0
 opy14
-Text GLabel 17550 11300 0    50   Input ~ 0
+Text GLabel 21200 10950 0    50   Input ~ 0
 opx14
-Text GLabel 17550 10950 0    50   Input ~ 0
+Text GLabel 21200 10600 0    50   Input ~ 0
 opy13
-Text GLabel 17550 10750 0    50   Input ~ 0
+Text GLabel 21200 10400 0    50   Input ~ 0
 opy13
-Text GLabel 17550 9900 0    50   Input ~ 0
+Text GLabel 21200 9550 0    50   Input ~ 0
 opy11
-Text GLabel 17550 9300 0    50   Input ~ 0
+Text GLabel 21200 8950 0    50   Input ~ 0
 opy10
-Text GLabel 17550 8750 0    50   Input ~ 0
+Text GLabel 21200 8400 0    50   Input ~ 0
 opy9
-Text GLabel 17550 8200 0    50   Input ~ 0
+Text GLabel 21200 7850 0    50   Input ~ 0
 opy8
-Text GLabel 17550 7700 0    50   Input ~ 0
+Text GLabel 21200 7350 0    50   Input ~ 0
 opy7
-Text GLabel 17550 7150 0    50   Input ~ 0
+Text GLabel 21200 6800 0    50   Input ~ 0
 opy6
-Text GLabel 17550 6600 0    50   Input ~ 0
+Text GLabel 21200 6250 0    50   Input ~ 0
 opy5
-Text GLabel 17550 6050 0    50   Input ~ 0
+Text GLabel 21200 5700 0    50   Input ~ 0
 opy4
-Text GLabel 17550 5500 0    50   Input ~ 0
+Text GLabel 21200 5150 0    50   Input ~ 0
 opy3
-Text GLabel 17550 4950 0    50   Input ~ 0
+Text GLabel 21200 4600 0    50   Input ~ 0
 opy2
-Text GLabel 17550 3800 0    50   Input ~ 0
+Text GLabel 21200 3450 0    50   Input ~ 0
 opy0
-Text GLabel 17550 3600 0    50   Input ~ 0
+Text GLabel 21200 3250 0    50   Input ~ 0
 opx0
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D0A094E
-P 17850 9200
-F 0 "U?" H 17850 9525 50  0000 C CNN
-F 1 "74LS08" H 17850 9434 50  0000 C CNN
-F 2 "" H 17850 9200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 9200 50  0001 C CNN
-	1    17850 9200
+P 21500 8850
+F 0 "U?" H 21500 9175 50  0000 C CNN
+F 1 "74LS08" H 21500 9084 50  0000 C CNN
+F 2 "" H 21500 8850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 8850 50  0001 C CNN
+	1    21500 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D088EC0
-P 17850 8650
-F 0 "U?" H 17850 8975 50  0000 C CNN
-F 1 "74LS08" H 17850 8884 50  0000 C CNN
-F 2 "" H 17850 8650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 8650 50  0001 C CNN
-	1    17850 8650
+P 21500 8300
+F 0 "U?" H 21500 8625 50  0000 C CNN
+F 1 "74LS08" H 21500 8534 50  0000 C CNN
+F 2 "" H 21500 8300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 8300 50  0001 C CNN
+	1    21500 8300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D0716DA
-P 17850 8100
-F 0 "U?" H 17850 8425 50  0000 C CNN
-F 1 "74LS08" H 17850 8334 50  0000 C CNN
-F 2 "" H 17850 8100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 8100 50  0001 C CNN
-	1    17850 8100
+P 21500 7750
+F 0 "U?" H 21500 8075 50  0000 C CNN
+F 1 "74LS08" H 21500 7984 50  0000 C CNN
+F 2 "" H 21500 7750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 7750 50  0001 C CNN
+	1    21500 7750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D059E4A
-P 17850 7600
-F 0 "U?" H 17850 7925 50  0000 C CNN
-F 1 "74LS08" H 17850 7834 50  0000 C CNN
-F 2 "" H 17850 7600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 7600 50  0001 C CNN
-	1    17850 7600
+P 21500 7250
+F 0 "U?" H 21500 7575 50  0000 C CNN
+F 1 "74LS08" H 21500 7484 50  0000 C CNN
+F 2 "" H 21500 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 7250 50  0001 C CNN
+	1    21500 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D0425A6
-P 17850 7050
-F 0 "U?" H 17850 7375 50  0000 C CNN
-F 1 "74LS08" H 17850 7284 50  0000 C CNN
-F 2 "" H 17850 7050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 7050 50  0001 C CNN
-	1    17850 7050
+P 21500 6700
+F 0 "U?" H 21500 7025 50  0000 C CNN
+F 1 "74LS08" H 21500 6934 50  0000 C CNN
+F 2 "" H 21500 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 6700 50  0001 C CNN
+	1    21500 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D02A9E2
-P 17850 6500
-F 0 "U?" H 17850 6825 50  0000 C CNN
-F 1 "74LS08" H 17850 6734 50  0000 C CNN
-F 2 "" H 17850 6500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 6500 50  0001 C CNN
-	1    17850 6500
+P 21500 6150
+F 0 "U?" H 21500 6475 50  0000 C CNN
+F 1 "74LS08" H 21500 6384 50  0000 C CNN
+F 2 "" H 21500 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 6150 50  0001 C CNN
+	1    21500 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5D0136A2
-P 17850 5950
-F 0 "U?" H 17850 6275 50  0000 C CNN
-F 1 "74LS08" H 17850 6184 50  0000 C CNN
-F 2 "" H 17850 5950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 5950 50  0001 C CNN
-	1    17850 5950
+P 21500 5600
+F 0 "U?" H 21500 5925 50  0000 C CNN
+F 1 "74LS08" H 21500 5834 50  0000 C CNN
+F 2 "" H 21500 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 5600 50  0001 C CNN
+	1    21500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5CFFC259
-P 17850 5400
-F 0 "U?" H 17850 5725 50  0000 C CNN
-F 1 "74LS08" H 17850 5634 50  0000 C CNN
-F 2 "" H 17850 5400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 5400 50  0001 C CNN
-	1    17850 5400
+P 21500 5050
+F 0 "U?" H 21500 5375 50  0000 C CNN
+F 1 "74LS08" H 21500 5284 50  0000 C CNN
+F 2 "" H 21500 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 5050 50  0001 C CNN
+	1    21500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5CFE4FEB
-P 17850 4850
-F 0 "U?" H 17850 5175 50  0000 C CNN
-F 1 "74LS08" H 17850 5084 50  0000 C CNN
-F 2 "" H 17850 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 4850 50  0001 C CNN
-	1    17850 4850
+P 21500 4500
+F 0 "U?" H 21500 4825 50  0000 C CNN
+F 1 "74LS08" H 21500 4734 50  0000 C CNN
+F 2 "" H 21500 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 4500 50  0001 C CNN
+	1    21500 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5CFCDBCF
-P 17850 4300
-F 0 "U?" H 17850 4625 50  0000 C CNN
-F 1 "74LS08" H 17850 4534 50  0000 C CNN
-F 2 "" H 17850 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 4300 50  0001 C CNN
-	1    17850 4300
+P 21500 3950
+F 0 "U?" H 21500 4275 50  0000 C CNN
+F 1 "74LS08" H 21500 4184 50  0000 C CNN
+F 2 "" H 21500 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 3950 50  0001 C CNN
+	1    21500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 1 1 5CEDF32F
-P 17850 3700
-F 0 "U?" H 17850 4025 50  0000 C CNN
-F 1 "74LS08" H 17850 3934 50  0000 C CNN
-F 2 "" H 17850 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17850 3700 50  0001 C CNN
-	1    17850 3700
+P 21500 3350
+F 0 "U?" H 21500 3675 50  0000 C CNN
+F 1 "74LS08" H 21500 3584 50  0000 C CNN
+F 2 "" H 21500 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21500 3350 50  0001 C CNN
+	1    21500 3350
 	1    0    0    -1  
 $EndComp
 Connection ~ 18350 1100
@@ -2144,439 +2144,439 @@ $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CDA
-P 18450 8300
-F 0 "U?" H 18425 8567 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 8476 50  0000 C CNN
-F 2 "" H 18450 8300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 8300 50  0001 C CNN
-	1    18450 8300
+P 22100 7950
+F 0 "U?" H 22075 8217 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 8126 50  0000 C CNN
+F 2 "" H 22100 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 7950 50  0001 C CNN
+	1    22100 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CE0
-P 18450 8850
-F 0 "U?" H 18425 9117 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 9026 50  0000 C CNN
-F 2 "" H 18450 8850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 8850 50  0001 C CNN
-	1    18450 8850
+P 22100 8500
+F 0 "U?" H 22075 8767 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 8676 50  0000 C CNN
+F 2 "" H 22100 8500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 8500 50  0001 C CNN
+	1    22100 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CE6
-P 18450 9400
-F 0 "U?" H 18425 9667 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 9576 50  0000 C CNN
-F 2 "" H 18450 9400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 9400 50  0001 C CNN
-	1    18450 9400
+P 22100 9050
+F 0 "U?" H 22075 9317 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 9226 50  0000 C CNN
+F 2 "" H 22100 9050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 9050 50  0001 C CNN
+	1    22100 9050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CEC
-P 18450 10000
-F 0 "U?" H 18425 10267 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 10176 50  0000 C CNN
-F 2 "" H 18450 10000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 10000 50  0001 C CNN
-	1    18450 10000
+P 22100 9650
+F 0 "U?" H 22075 9917 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 9826 50  0000 C CNN
+F 2 "" H 22100 9650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 9650 50  0001 C CNN
+	1    22100 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CF2
-P 18450 10550
-F 0 "U?" H 18425 10817 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 10726 50  0000 C CNN
-F 2 "" H 18450 10550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 10550 50  0001 C CNN
-	1    18450 10550
+P 22100 10200
+F 0 "U?" H 22075 10467 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 10376 50  0000 C CNN
+F 2 "" H 22100 10200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 10200 50  0001 C CNN
+	1    22100 10200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CF8
-P 18450 11050
-F 0 "U?" H 18425 11317 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 11226 50  0000 C CNN
-F 2 "" H 18450 11050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 11050 50  0001 C CNN
-	1    18450 11050
+P 22100 10700
+F 0 "U?" H 22075 10967 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 10876 50  0000 C CNN
+F 2 "" H 22100 10700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 10700 50  0001 C CNN
+	1    22100 10700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5CFE
-P 18450 11600
-F 0 "U?" H 18425 11867 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 11776 50  0000 C CNN
-F 2 "" H 18450 11600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 11600 50  0001 C CNN
-	1    18450 11600
+P 22100 11250
+F 0 "U?" H 22075 11517 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 11426 50  0000 C CNN
+F 2 "" H 22100 11250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 11250 50  0001 C CNN
+	1    22100 11250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D04
-P 18450 12150
-F 0 "U?" H 18425 12417 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 12326 50  0000 C CNN
-F 2 "" H 18450 12150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 12150 50  0001 C CNN
-	1    18450 12150
+P 22100 11800
+F 0 "U?" H 22075 12067 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 11976 50  0000 C CNN
+F 2 "" H 22100 11800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 11800 50  0001 C CNN
+	1    22100 11800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D0A
-P 18450 3900
-F 0 "U?" H 18425 4167 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 4076 50  0000 C CNN
-F 2 "" H 18450 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 3900 50  0001 C CNN
-	1    18450 3900
+P 22100 3550
+F 0 "U?" H 22075 3817 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 3726 50  0000 C CNN
+F 2 "" H 22100 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 3550 50  0001 C CNN
+	1    22100 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D10
-P 18450 4500
-F 0 "U?" H 18425 4767 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 4676 50  0000 C CNN
-F 2 "" H 18450 4500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 4500 50  0001 C CNN
-	1    18450 4500
+P 22100 4150
+F 0 "U?" H 22075 4417 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 4326 50  0000 C CNN
+F 2 "" H 22100 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 4150 50  0001 C CNN
+	1    22100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D16
-P 18450 5050
-F 0 "U?" H 18425 5317 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 5226 50  0000 C CNN
-F 2 "" H 18450 5050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 5050 50  0001 C CNN
-	1    18450 5050
+P 22100 4700
+F 0 "U?" H 22075 4967 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 4876 50  0000 C CNN
+F 2 "" H 22100 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 4700 50  0001 C CNN
+	1    22100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D1C
-P 18450 5600
-F 0 "U?" H 18425 5867 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 5776 50  0000 C CNN
-F 2 "" H 18450 5600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 5600 50  0001 C CNN
-	1    18450 5600
+P 22100 5250
+F 0 "U?" H 22075 5517 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 5426 50  0000 C CNN
+F 2 "" H 22100 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 5250 50  0001 C CNN
+	1    22100 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D22
-P 18450 6150
-F 0 "U?" H 18425 6417 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 6326 50  0000 C CNN
-F 2 "" H 18450 6150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 6150 50  0001 C CNN
-	1    18450 6150
+P 22100 5800
+F 0 "U?" H 22075 6067 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 5976 50  0000 C CNN
+F 2 "" H 22100 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 5800 50  0001 C CNN
+	1    22100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D28
-P 18450 6700
-F 0 "U?" H 18425 6967 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 6876 50  0000 C CNN
-F 2 "" H 18450 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 6700 50  0001 C CNN
-	1    18450 6700
+P 22100 6350
+F 0 "U?" H 22075 6617 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 6526 50  0000 C CNN
+F 2 "" H 22100 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 6350 50  0001 C CNN
+	1    22100 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D2E
-P 18450 7250
-F 0 "U?" H 18425 7517 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 7426 50  0000 C CNN
-F 2 "" H 18450 7250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 7250 50  0001 C CNN
-	1    18450 7250
+P 22100 6900
+F 0 "U?" H 22075 7167 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 7076 50  0000 C CNN
+F 2 "" H 22100 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 6900 50  0001 C CNN
+	1    22100 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHCT1G04 U?
 U 1 1 5E1C5D34
-P 18450 7800
-F 0 "U?" H 18425 8067 50  0000 C CNN
-F 1 "74AHCT1G04" H 18425 7976 50  0000 C CNN
-F 2 "" H 18450 7800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18450 7800 50  0001 C CNN
-	1    18450 7800
+P 22100 7450
+F 0 "U?" H 22075 7717 50  0000 C CNN
+F 1 "74AHCT1G04" H 22075 7626 50  0000 C CNN
+F 2 "" H 22100 7450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 22100 7450 50  0001 C CNN
+	1    22100 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18150 3900 18150 3700
+	21800 3550 21800 3350
 Wire Wire Line
-	18150 4300 18150 4500
+	21800 3950 21800 4150
 Wire Wire Line
-	18150 4850 18150 5050
+	21800 4500 21800 4700
 Wire Wire Line
-	18150 5400 18150 5600
+	21800 5050 21800 5250
 Wire Wire Line
-	18150 5950 18150 6150
+	21800 5600 21800 5800
 Wire Wire Line
-	18150 6500 18150 6700
+	21800 6150 21800 6350
 Wire Wire Line
-	18150 7050 18150 7250
+	21800 6700 21800 6900
 Wire Wire Line
-	18150 7600 18150 7800
+	21800 7250 21800 7450
 Wire Wire Line
-	18150 8100 18150 8300
+	21800 7750 21800 7950
 Wire Wire Line
-	18150 8650 18150 8850
+	21800 8300 21800 8500
 Wire Wire Line
-	18150 9200 18150 9400
+	21800 8850 21800 9050
 Wire Wire Line
-	18150 9800 18150 10000
+	21800 9450 21800 9650
 Wire Wire Line
-	18150 10350 18150 10550
+	21800 10000 21800 10200
 Wire Wire Line
-	18150 10850 18150 11050
+	21800 10500 21800 10700
 Wire Wire Line
-	18150 11400 18150 11600
+	21800 11050 21800 11250
 Wire Wire Line
-	18150 11950 18150 12150
-Text GLabel 18700 3900 2    50   Input ~ 0
+	21800 11600 21800 11800
+Text GLabel 22350 3550 2    50   Input ~ 0
 notband0
-Text GLabel 18700 4500 2    50   Input ~ 0
+Text GLabel 22350 4150 2    50   Input ~ 0
 notband1
-Text GLabel 18700 5050 2    50   Input ~ 0
+Text GLabel 22350 4700 2    50   Input ~ 0
 notband2
-Text GLabel 18700 5600 2    50   Input ~ 0
+Text GLabel 22350 5250 2    50   Input ~ 0
 notband3
-Text GLabel 18700 6150 2    50   Input ~ 0
+Text GLabel 22350 5800 2    50   Input ~ 0
 notband4
-Text GLabel 18700 6700 2    50   Input ~ 0
+Text GLabel 22350 6350 2    50   Input ~ 0
 notband5
-Text GLabel 18700 7250 2    50   Input ~ 0
+Text GLabel 22350 6900 2    50   Input ~ 0
 notband6
-Text GLabel 18700 7800 2    50   Input ~ 0
+Text GLabel 22350 7450 2    50   Input ~ 0
 notband7
-Text GLabel 18700 8300 2    50   Input ~ 0
+Text GLabel 22350 7950 2    50   Input ~ 0
 notband8
-Text GLabel 18700 8850 2    50   Input ~ 0
+Text GLabel 22350 8500 2    50   Input ~ 0
 notband9
-Text GLabel 18700 9400 2    50   Input ~ 0
+Text GLabel 22350 9050 2    50   Input ~ 0
 notband10
-Text GLabel 18700 10000 2    50   Input ~ 0
+Text GLabel 22350 9650 2    50   Input ~ 0
 notband11
-Text GLabel 18700 10550 2    50   Input ~ 0
+Text GLabel 22350 10200 2    50   Input ~ 0
 notband12
-Text GLabel 18700 11050 2    50   Input ~ 0
+Text GLabel 22350 10700 2    50   Input ~ 0
 notband13
-Text GLabel 18700 11600 2    50   Input ~ 0
+Text GLabel 22350 11250 2    50   Input ~ 0
 notband14
-Text GLabel 18700 12150 2    50   Input ~ 0
+Text GLabel 22350 11800 2    50   Input ~ 0
 notband15
-Text GLabel 18700 3700 2    50   Input ~ 0
+Text GLabel 22350 3350 2    50   Input ~ 0
 band0
-Text GLabel 18700 4300 2    50   Input ~ 0
+Text GLabel 22350 3950 2    50   Input ~ 0
 band1
-Text GLabel 18700 4850 2    50   Input ~ 0
+Text GLabel 22350 4500 2    50   Input ~ 0
 band2
-Text GLabel 18700 5400 2    50   Input ~ 0
+Text GLabel 22350 5050 2    50   Input ~ 0
 band3
-Text GLabel 18700 5950 2    50   Input ~ 0
+Text GLabel 22350 5600 2    50   Input ~ 0
 band4
-Text GLabel 18700 6500 2    50   Input ~ 0
+Text GLabel 22350 6150 2    50   Input ~ 0
 band5
-Text GLabel 18700 7050 2    50   Input ~ 0
+Text GLabel 22350 6700 2    50   Input ~ 0
 band6
-Text GLabel 18700 7600 2    50   Input ~ 0
+Text GLabel 22350 7250 2    50   Input ~ 0
 band7
-Text GLabel 18700 8100 2    50   Input ~ 0
+Text GLabel 22350 7750 2    50   Input ~ 0
 band8
-Text GLabel 18700 8650 2    50   Input ~ 0
+Text GLabel 22350 8300 2    50   Input ~ 0
 band9
-Text GLabel 18700 9200 2    50   Input ~ 0
+Text GLabel 22350 8850 2    50   Input ~ 0
 band10
-Text GLabel 18700 9800 2    50   Input ~ 0
+Text GLabel 22350 9450 2    50   Input ~ 0
 band11
-Text GLabel 18700 10350 2    50   Input ~ 0
+Text GLabel 22350 10000 2    50   Input ~ 0
 band12
-Text GLabel 18700 10850 2    50   Input ~ 0
+Text GLabel 22350 10500 2    50   Input ~ 0
 band13
-Text GLabel 18700 11400 2    50   Input ~ 0
+Text GLabel 22350 11050 2    50   Input ~ 0
 band14
-Text GLabel 18700 11950 2    50   Input ~ 0
+Text GLabel 22350 11600 2    50   Input ~ 0
 band15
 Wire Wire Line
-	18150 11950 18700 11950
-Connection ~ 18150 11950
+	21800 11600 22350 11600
+Connection ~ 21800 11600
 Wire Wire Line
-	18150 11400 18700 11400
-Connection ~ 18150 11400
+	21800 11050 22350 11050
+Connection ~ 21800 11050
 Wire Wire Line
-	18150 10850 18700 10850
-Connection ~ 18150 10850
+	21800 10500 22350 10500
+Connection ~ 21800 10500
 Wire Wire Line
-	18150 10350 18700 10350
-Connection ~ 18150 10350
+	21800 10000 22350 10000
+Connection ~ 21800 10000
 Wire Wire Line
-	18150 9800 18700 9800
-Connection ~ 18150 9800
+	21800 9450 22350 9450
+Connection ~ 21800 9450
 Wire Wire Line
-	18150 9200 18700 9200
-Connection ~ 18150 9200
+	21800 8850 22350 8850
+Connection ~ 21800 8850
 Wire Wire Line
-	18150 8650 18700 8650
-Connection ~ 18150 8650
+	21800 8300 22350 8300
+Connection ~ 21800 8300
 Wire Wire Line
-	18150 7600 18700 7600
-Connection ~ 18150 7600
+	21800 7250 22350 7250
+Connection ~ 21800 7250
 Wire Wire Line
-	18150 7050 18700 7050
-Connection ~ 18150 7050
+	21800 6700 22350 6700
+Connection ~ 21800 6700
 Wire Wire Line
-	18150 6500 18700 6500
-Connection ~ 18150 6500
+	21800 6150 22350 6150
+Connection ~ 21800 6150
 Wire Wire Line
-	18150 5950 18700 5950
-Connection ~ 18150 5950
+	21800 5600 22350 5600
+Connection ~ 21800 5600
 Wire Wire Line
-	18150 5400 18700 5400
-Connection ~ 18150 5400
+	21800 5050 22350 5050
+Connection ~ 21800 5050
 Wire Wire Line
-	18150 4850 18700 4850
-Connection ~ 18150 4850
+	21800 4500 22350 4500
+Connection ~ 21800 4500
 Wire Wire Line
-	18150 4300 18700 4300
-Connection ~ 18150 4300
+	21800 3950 22350 3950
+Connection ~ 21800 3950
 Wire Wire Line
-	18150 3700 18700 3700
-Connection ~ 18150 3700
+	21800 3350 22350 3350
+Connection ~ 21800 3350
 $Comp
 L nand2tetris:SN74CBT16233 U?
 U 1 1 5E58FF8C
-P 4100 8800
-F 0 "U?" H 4100 10731 50  0000 C CNN
-F 1 "SN74CBT16233" H 4100 10640 50  0000 C CNN
-F 2 "" H 4200 8750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 4100 10639 50  0001 C CNN
-	1    4100 8800
+P 1800 8750
+F 0 "U?" H 1800 10681 50  0000 C CNN
+F 1 "SN74CBT16233" H 1800 10590 50  0000 C CNN
+F 2 "" H 1900 8700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 1800 10589 50  0001 C CNN
+	1    1800 8750
 	1    0    0    -1  
 $EndComp
 $Comp
 L nand2tetris:SN74CBT16233 U?
 U 1 1 5E592386
-P 4100 12900
-F 0 "U?" H 4100 14831 50  0000 C CNN
-F 1 "SN74CBT16233" H 4100 14740 50  0000 C CNN
-F 2 "" H 4200 12850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 4100 14739 50  0001 C CNN
-	1    4100 12900
+P 1800 12850
+F 0 "U?" H 1800 14781 50  0000 C CNN
+F 1 "SN74CBT16233" H 1800 14690 50  0000 C CNN
+F 2 "" H 1900 12800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 1800 14689 50  0001 C CNN
+	1    1800 12850
 	1    0    0    -1  
 $EndComp
 $Comp
 L nand2tetris:SN74CBT16233 U?
 U 1 1 5E596A02
-P 6100 8800
-F 0 "U?" H 6100 10731 50  0000 C CNN
-F 1 "SN74CBT16233" H 6100 10640 50  0000 C CNN
-F 2 "" H 6200 8750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 6100 10639 50  0001 C CNN
-	1    6100 8800
+P 3800 8750
+F 0 "U?" H 3800 10681 50  0000 C CNN
+F 1 "SN74CBT16233" H 3800 10590 50  0000 C CNN
+F 2 "" H 3900 8700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf" H 3800 10589 50  0001 C CNN
+	1    3800 8750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4050 10650
-NoConn ~ 4150 10650
-NoConn ~ 4250 10650
-NoConn ~ 4500 10650
-NoConn ~ 4050 14750
-NoConn ~ 4150 14750
-NoConn ~ 4250 14750
-NoConn ~ 4500 14750
-NoConn ~ 6050 10650
-NoConn ~ 6150 10650
-NoConn ~ 6250 10650
-NoConn ~ 6500 10650
-NoConn ~ 6200 7050
-NoConn ~ 4200 11150
-NoConn ~ 4200 7050
+NoConn ~ 1750 10600
+NoConn ~ 1850 10600
+NoConn ~ 1950 10600
+NoConn ~ 2200 10600
+NoConn ~ 1750 14700
+NoConn ~ 1850 14700
+NoConn ~ 1950 14700
+NoConn ~ 2200 14700
+NoConn ~ 3750 10600
+NoConn ~ 3850 10600
+NoConn ~ 3950 10600
+NoConn ~ 4200 10600
+NoConn ~ 3900 7000
+NoConn ~ 1900 11100
+NoConn ~ 1900 7000
 $Comp
 L power:GND #PWR?
 U 1 1 5E6BD830
-P 4400 10650
-F 0 "#PWR?" H 4400 10400 50  0001 C CNN
-F 1 "GND" H 4405 10477 50  0000 C CNN
-F 2 "" H 4400 10650 50  0001 C CNN
-F 3 "" H 4400 10650 50  0001 C CNN
-	1    4400 10650
+P 2100 10600
+F 0 "#PWR?" H 2100 10350 50  0001 C CNN
+F 1 "GND" H 2105 10427 50  0000 C CNN
+F 2 "" H 2100 10600 50  0001 C CNN
+F 3 "" H 2100 10600 50  0001 C CNN
+	1    2100 10600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E6BE02F
-P 4400 14750
-F 0 "#PWR?" H 4400 14500 50  0001 C CNN
-F 1 "GND" H 4405 14577 50  0000 C CNN
-F 2 "" H 4400 14750 50  0001 C CNN
-F 3 "" H 4400 14750 50  0001 C CNN
-	1    4400 14750
+P 2100 14700
+F 0 "#PWR?" H 2100 14450 50  0001 C CNN
+F 1 "GND" H 2105 14527 50  0000 C CNN
+F 2 "" H 2100 14700 50  0001 C CNN
+F 3 "" H 2100 14700 50  0001 C CNN
+	1    2100 14700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E6BFA70
-P 6400 10650
-F 0 "#PWR?" H 6400 10400 50  0001 C CNN
-F 1 "GND" H 6405 10477 50  0000 C CNN
-F 2 "" H 6400 10650 50  0001 C CNN
-F 3 "" H 6400 10650 50  0001 C CNN
-	1    6400 10650
+P 4100 10600
+F 0 "#PWR?" H 4100 10350 50  0001 C CNN
+F 1 "GND" H 4105 10427 50  0000 C CNN
+F 2 "" H 4100 10600 50  0001 C CNN
+F 3 "" H 4100 10600 50  0001 C CNN
+	1    4100 10600
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 10650 3    50   Input ~ 0
+Text GLabel 1650 10600 3    50   Input ~ 0
 f
-Text GLabel 3950 14750 3    50   Input ~ 0
+Text GLabel 1650 14700 3    50   Input ~ 0
 f
-Text GLabel 5950 10650 3    50   Input ~ 0
+Text GLabel 3650 10600 3    50   Input ~ 0
 no
 Wire Wire Line
-	4700 7250 5500 7250
+	2400 7200 3200 7200
 Wire Wire Line
-	4700 7350 5500 7350
+	2400 7300 3200 7300
 Wire Wire Line
-	4700 7450 5500 7450
+	2400 7400 3200 7400
 Wire Wire Line
-	4700 7550 5500 7550
+	2400 7500 3200 7500
 Wire Wire Line
-	4700 7650 5500 7650
+	2400 7600 3200 7600
 Wire Wire Line
-	4700 7750 5500 7750
+	2400 7700 3200 7700
 Wire Wire Line
-	4700 7850 5500 7850
+	2400 7800 3200 7800
 Wire Wire Line
-	4700 7950 5500 7950
+	2400 7900 3200 7900
 Wire Wire Line
-	4700 8050 5500 8050
+	2400 8000 3200 8000
 Wire Wire Line
-	4700 8150 5500 8150
+	2400 8100 3200 8100
 Wire Wire Line
-	4700 8250 5500 8250
+	2400 8200 3200 8200
 Wire Wire Line
-	4700 8350 5500 8350
+	2400 8300 3200 8300
 Wire Wire Line
-	4700 8450 5500 8450
+	2400 8400 3200 8400
 Wire Wire Line
-	4700 8550 5500 8550
+	2400 8500 3200 8500
 Wire Wire Line
-	4700 8650 5500 8650
+	2400 8600 3200 8600
 Wire Wire Line
-	4700 8750 5500 8750
+	2400 8700 3200 8700
 Wire Wire Line
 	16250 1400 15950 1400
 Wire Wire Line
@@ -2596,739 +2596,798 @@ Wire Wire Line
 Wire Wire Line
 	18850 1900 19200 1900
 Wire Wire Line
-	5500 8900 5200 8900
+	3200 8850 2900 8850
 Wire Wire Line
-	5500 9000 5200 9000
+	3200 8950 2900 8950
 Wire Wire Line
-	5500 9100 5200 9100
+	3200 9050 2900 9050
 Wire Wire Line
-	5500 9200 5200 9200
+	3200 9150 2900 9150
 Wire Wire Line
-	5500 9300 5200 9300
+	3200 9250 2900 9250
 Wire Wire Line
-	5500 9400 5200 9400
+	3200 9350 2900 9350
 Wire Wire Line
-	5500 9500 5200 9500
+	3200 9450 2900 9450
 Wire Wire Line
-	5500 9600 5200 9600
+	3200 9550 2900 9550
 Wire Wire Line
-	5500 9700 5200 9700
+	3200 9650 2900 9650
 Wire Wire Line
-	5500 9800 5200 9800
+	3200 9750 2900 9750
 Wire Wire Line
-	5500 9900 5200 9900
+	3200 9850 2900 9850
 Wire Wire Line
-	5500 10000 5200 10000
+	3200 9950 2900 9950
 Wire Wire Line
-	5500 10100 5200 10100
+	3200 10050 2900 10050
 Wire Wire Line
-	5500 10200 5200 10200
+	3200 10150 2900 10150
 Wire Wire Line
-	5500 10300 5200 10300
+	3200 10250 2900 10250
 Wire Wire Line
-	5500 10400 5200 10400
+	3200 10350 2900 10350
 Entry Wire Line
-	5100 8800 5200 8900
+	2800 8750 2900 8850
 Entry Wire Line
-	5100 8900 5200 9000
+	2800 8850 2900 8950
 Entry Wire Line
-	5100 9000 5200 9100
+	2800 8950 2900 9050
 Entry Wire Line
-	5100 9100 5200 9200
+	2800 9050 2900 9150
 Entry Wire Line
-	5100 9200 5200 9300
+	2800 9150 2900 9250
 Entry Wire Line
-	5100 9300 5200 9400
+	2800 9250 2900 9350
 Entry Wire Line
-	5100 9400 5200 9500
+	2800 9350 2900 9450
 Entry Wire Line
-	5100 9500 5200 9600
+	2800 9450 2900 9550
 Entry Wire Line
-	5100 9600 5200 9700
+	2800 9550 2900 9650
 Entry Wire Line
-	5100 9700 5200 9800
+	2800 9650 2900 9750
 Entry Wire Line
-	5100 9800 5200 9900
+	2800 9750 2900 9850
 Entry Wire Line
-	5100 9900 5200 10000
+	2800 9850 2900 9950
 Entry Wire Line
-	5100 10000 5200 10100
+	2800 9950 2900 10050
 Entry Wire Line
-	5100 10100 5200 10200
+	2800 10050 2900 10150
 Entry Wire Line
-	5100 10200 5200 10300
+	2800 10150 2900 10250
 Entry Wire Line
-	5100 10300 5200 10400
+	2800 10250 2900 10350
 Entry Wire Line
-	5000 11350 5100 11450
+	2700 11300 2800 11400
 Entry Wire Line
-	5000 11450 5100 11550
+	2700 11400 2800 11500
 Entry Wire Line
-	5000 11550 5100 11650
+	2700 11500 2800 11600
 Entry Wire Line
-	5000 11650 5100 11750
+	2700 11600 2800 11700
 Entry Wire Line
-	5000 11750 5100 11850
+	2700 11700 2800 11800
 Entry Wire Line
-	5000 11850 5100 11950
+	2700 11800 2800 11900
 Entry Wire Line
-	5000 11950 5100 12050
+	2700 11900 2800 12000
 Entry Wire Line
-	5000 12050 5100 12150
+	2700 12000 2800 12100
 Entry Wire Line
-	5000 12150 5100 12250
+	2700 12100 2800 12200
 Entry Wire Line
-	5000 12250 5100 12350
+	2700 12200 2800 12300
 Entry Wire Line
-	5000 12350 5100 12450
+	2700 12300 2800 12400
 Entry Wire Line
-	5000 12450 5100 12550
+	2700 12400 2800 12500
 Entry Wire Line
-	5000 12550 5100 12650
+	2700 12500 2800 12600
 Entry Wire Line
-	5000 12650 5100 12750
+	2700 12600 2800 12700
 Entry Wire Line
-	5000 12750 5100 12850
+	2700 12700 2800 12800
 Entry Wire Line
-	5000 12850 5100 12950
+	2700 12800 2800 12900
 Wire Wire Line
-	4700 11350 5000 11350
+	2400 11300 2700 11300
 $Comp
 L power:VCC #PWR?
 U 1 1 5E994F72
-P 6000 6850
-F 0 "#PWR?" H 6000 6700 50  0001 C CNN
-F 1 "VCC" H 6017 7023 50  0000 C CNN
-F 2 "" H 6000 6850 50  0001 C CNN
-F 3 "" H 6000 6850 50  0001 C CNN
-	1    6000 6850
+P 3700 6800
+F 0 "#PWR?" H 3700 6650 50  0001 C CNN
+F 1 "VCC" H 3717 6973 50  0000 C CNN
+F 2 "" H 3700 6800 50  0001 C CNN
+F 3 "" H 3700 6800 50  0001 C CNN
+	1    3700 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5E996D24
-P 4000 6850
-F 0 "#PWR?" H 4000 6700 50  0001 C CNN
-F 1 "VCC" H 4017 7023 50  0000 C CNN
-F 2 "" H 4000 6850 50  0001 C CNN
-F 3 "" H 4000 6850 50  0001 C CNN
-	1    4000 6850
+P 1700 6800
+F 0 "#PWR?" H 1700 6650 50  0001 C CNN
+F 1 "VCC" H 1717 6973 50  0000 C CNN
+F 2 "" H 1700 6800 50  0001 C CNN
+F 3 "" H 1700 6800 50  0001 C CNN
+	1    1700 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 6850 4000 7050
+	1700 6800 1700 7000
 Wire Wire Line
-	4700 11450 5000 11450
+	2400 11400 2700 11400
 Wire Wire Line
-	4700 11550 5000 11550
+	2400 11500 2700 11500
 Wire Wire Line
-	4700 11650 5000 11650
+	2400 11600 2700 11600
 Wire Wire Line
-	4700 11750 5000 11750
+	2400 11700 2700 11700
 Wire Wire Line
-	4700 11850 5000 11850
+	2400 11800 2700 11800
 Wire Wire Line
-	4700 11950 5000 11950
+	2400 11900 2700 11900
 Wire Wire Line
-	4700 12050 5000 12050
+	2400 12000 2700 12000
 Wire Wire Line
-	4700 12150 5000 12150
+	2400 12100 2700 12100
 Wire Wire Line
-	4700 12250 5000 12250
+	2400 12200 2700 12200
 Wire Wire Line
-	4700 12350 5000 12350
+	2400 12300 2700 12300
 Wire Wire Line
-	4700 12450 5000 12450
+	2400 12400 2700 12400
 Wire Wire Line
-	4700 12550 5000 12550
+	2400 12500 2700 12500
 Wire Wire Line
-	4700 12650 5000 12650
+	2400 12600 2700 12600
 Wire Wire Line
-	4700 12750 5000 12750
+	2400 12700 2700 12700
 Wire Wire Line
-	4700 12850 5000 12850
+	2400 12800 2700 12800
 Wire Wire Line
-	6000 6850 6000 7050
+	3700 6800 3700 7000
 $Comp
 L power:VCC #PWR?
 U 1 1 5EAADCDF
-P 4000 10950
-F 0 "#PWR?" H 4000 10800 50  0001 C CNN
-F 1 "VCC" H 4017 11123 50  0000 C CNN
-F 2 "" H 4000 10950 50  0001 C CNN
-F 3 "" H 4000 10950 50  0001 C CNN
-	1    4000 10950
+P 1700 10900
+F 0 "#PWR?" H 1700 10750 50  0001 C CNN
+F 1 "VCC" H 1717 11073 50  0000 C CNN
+F 2 "" H 1700 10900 50  0001 C CNN
+F 3 "" H 1700 10900 50  0001 C CNN
+	1    1700 10900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 10950 4000 11150
-Text GLabel 3500 7250 0    50   Input ~ 0
+	1700 10900 1700 11100
+Text GLabel 1200 7200 0    50   Input ~ 0
 band0
-Text GLabel 3500 7350 0    50   Input ~ 0
+Text GLabel 1200 7300 0    50   Input ~ 0
 band1
-Text GLabel 3500 7450 0    50   Input ~ 0
+Text GLabel 1200 7400 0    50   Input ~ 0
 band2
-Text GLabel 3500 7550 0    50   Input ~ 0
+Text GLabel 1200 7500 0    50   Input ~ 0
 band3
-Text GLabel 3500 7650 0    50   Input ~ 0
+Text GLabel 1200 7600 0    50   Input ~ 0
 band4
-Text GLabel 3500 7750 0    50   Input ~ 0
+Text GLabel 1200 7700 0    50   Input ~ 0
 band5
-Text GLabel 3500 7850 0    50   Input ~ 0
+Text GLabel 1200 7800 0    50   Input ~ 0
 band6
-Text GLabel 3500 7950 0    50   Input ~ 0
+Text GLabel 1200 7900 0    50   Input ~ 0
 band7
-Text GLabel 3500 8050 0    50   Input ~ 0
+Text GLabel 1200 8000 0    50   Input ~ 0
 band8
-Text GLabel 3500 8150 0    50   Input ~ 0
+Text GLabel 1200 8100 0    50   Input ~ 0
 band9
-Text GLabel 3500 8250 0    50   Input ~ 0
+Text GLabel 1200 8200 0    50   Input ~ 0
 band10
-Text GLabel 3500 8350 0    50   Input ~ 0
+Text GLabel 1200 8300 0    50   Input ~ 0
 band11
-Text GLabel 3500 8450 0    50   Input ~ 0
+Text GLabel 1200 8400 0    50   Input ~ 0
 band12
-Text GLabel 3500 8550 0    50   Input ~ 0
+Text GLabel 1200 8500 0    50   Input ~ 0
 band13
-Text GLabel 3500 8650 0    50   Input ~ 0
+Text GLabel 1200 8600 0    50   Input ~ 0
 band14
-Text GLabel 3500 8750 0    50   Input ~ 0
+Text GLabel 1200 8700 0    50   Input ~ 0
 band15
-Text GLabel 3500 8900 0    50   Input ~ 0
+Text GLabel 1200 8850 0    50   Input ~ 0
 sum0
-Text GLabel 3500 9000 0    50   Input ~ 0
+Text GLabel 1200 8950 0    50   Input ~ 0
 sum1
-Text GLabel 3500 9100 0    50   Input ~ 0
+Text GLabel 1200 9050 0    50   Input ~ 0
 sum2
-Text GLabel 3500 9200 0    50   Input ~ 0
+Text GLabel 1200 9150 0    50   Input ~ 0
 sum3
-Text GLabel 3500 9300 0    50   Input ~ 0
+Text GLabel 1200 9250 0    50   Input ~ 0
 sum4
-Text GLabel 3500 9400 0    50   Input ~ 0
+Text GLabel 1200 9350 0    50   Input ~ 0
 sum5
-Text GLabel 3500 9500 0    50   Input ~ 0
+Text GLabel 1200 9450 0    50   Input ~ 0
 sum6
-Text GLabel 3500 9600 0    50   Input ~ 0
+Text GLabel 1200 9550 0    50   Input ~ 0
 sum7
-Text GLabel 3500 9700 0    50   Input ~ 0
+Text GLabel 1200 9650 0    50   Input ~ 0
 sum8
-Text GLabel 3500 9800 0    50   Input ~ 0
+Text GLabel 1200 9750 0    50   Input ~ 0
 sum9
-Text GLabel 3500 9900 0    50   Input ~ 0
+Text GLabel 1200 9850 0    50   Input ~ 0
 sum10
-Text GLabel 3500 10000 0    50   Input ~ 0
+Text GLabel 1200 9950 0    50   Input ~ 0
 sum11
-Text GLabel 3500 10100 0    50   Input ~ 0
+Text GLabel 1200 10050 0    50   Input ~ 0
 sum12
-Text GLabel 3500 10200 0    50   Input ~ 0
+Text GLabel 1200 10150 0    50   Input ~ 0
 sum13
-Text GLabel 3500 10300 0    50   Input ~ 0
+Text GLabel 1200 10250 0    50   Input ~ 0
 sum14
-Text GLabel 3500 10400 0    50   Input ~ 0
+Text GLabel 1200 10350 0    50   Input ~ 0
 sum15
-Text GLabel 3500 11350 0    50   Input ~ 0
+Text GLabel 1200 11300 0    50   Input ~ 0
 notband0
-Text GLabel 3500 11450 0    50   Input ~ 0
+Text GLabel 1200 11400 0    50   Input ~ 0
 notband1
-Text GLabel 3500 11550 0    50   Input ~ 0
+Text GLabel 1200 11500 0    50   Input ~ 0
 notband2
-Text GLabel 3500 11650 0    50   Input ~ 0
+Text GLabel 1200 11600 0    50   Input ~ 0
 notband3
-Text GLabel 3500 11750 0    50   Input ~ 0
+Text GLabel 1200 11700 0    50   Input ~ 0
 notband4
-Text GLabel 3500 11850 0    50   Input ~ 0
+Text GLabel 1200 11800 0    50   Input ~ 0
 notband5
-Text GLabel 3500 11950 0    50   Input ~ 0
+Text GLabel 1200 11900 0    50   Input ~ 0
 notband6
-Text GLabel 3500 12050 0    50   Input ~ 0
+Text GLabel 1200 12000 0    50   Input ~ 0
 notband7
-Text GLabel 3500 12150 0    50   Input ~ 0
+Text GLabel 1200 12100 0    50   Input ~ 0
 notband8
-Text GLabel 3500 12250 0    50   Input ~ 0
+Text GLabel 1200 12200 0    50   Input ~ 0
 notband9
-Text GLabel 3500 12350 0    50   Input ~ 0
+Text GLabel 1200 12300 0    50   Input ~ 0
 notband10
-Text GLabel 3500 12450 0    50   Input ~ 0
+Text GLabel 1200 12400 0    50   Input ~ 0
 notband11
-Text GLabel 3500 12550 0    50   Input ~ 0
+Text GLabel 1200 12500 0    50   Input ~ 0
 notband12
-Text GLabel 3500 12650 0    50   Input ~ 0
+Text GLabel 1200 12600 0    50   Input ~ 0
 notband13
-Text GLabel 3500 12750 0    50   Input ~ 0
+Text GLabel 1200 12700 0    50   Input ~ 0
 notband14
-Text GLabel 3500 12850 0    50   Input ~ 0
+Text GLabel 1200 12800 0    50   Input ~ 0
 notband15
-Text GLabel 3500 13000 0    50   Input ~ 0
+Text GLabel 1200 12950 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13100 0    50   Input ~ 0
+Text GLabel 1200 13050 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13200 0    50   Input ~ 0
+Text GLabel 1200 13150 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13300 0    50   Input ~ 0
+Text GLabel 1200 13250 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13400 0    50   Input ~ 0
+Text GLabel 1200 13350 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13500 0    50   Input ~ 0
+Text GLabel 1200 13450 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13600 0    50   Input ~ 0
+Text GLabel 1200 13550 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13700 0    50   Input ~ 0
+Text GLabel 1200 13650 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13800 0    50   Input ~ 0
+Text GLabel 1200 13750 0    50   Input ~ 0
 notsum
-Text GLabel 3500 13900 0    50   Input ~ 0
+Text GLabel 1200 13850 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14000 0    50   Input ~ 0
+Text GLabel 1200 13950 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14100 0    50   Input ~ 0
+Text GLabel 1200 14050 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14200 0    50   Input ~ 0
+Text GLabel 1200 14150 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14300 0    50   Input ~ 0
+Text GLabel 1200 14250 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14400 0    50   Input ~ 0
+Text GLabel 1200 14350 0    50   Input ~ 0
 notsum
-Text GLabel 3500 14500 0    50   Input ~ 0
+Text GLabel 1200 14450 0    50   Input ~ 0
 notsum
-Text Label 5000 11350 2    50   ~ 0
+Text Label 2700 11300 2    50   ~ 0
 selnot0
-Text Label 5000 11450 2    50   ~ 0
+Text Label 2700 11400 2    50   ~ 0
 selnot1
-Text Label 5000 11550 2    50   ~ 0
+Text Label 2700 11500 2    50   ~ 0
 selnot2
-Text Label 5000 11650 2    50   ~ 0
+Text Label 2700 11600 2    50   ~ 0
 selnot3
-Text Label 5000 11750 2    50   ~ 0
+Text Label 2700 11700 2    50   ~ 0
 selnot4
-Text Label 5000 11850 2    50   ~ 0
+Text Label 2700 11800 2    50   ~ 0
 selnot5
-Text Label 5000 11950 2    50   ~ 0
+Text Label 2700 11900 2    50   ~ 0
 selnot6
-Text Label 5000 12050 2    50   ~ 0
+Text Label 2700 12000 2    50   ~ 0
 selnot7
-Text Label 5000 12150 2    50   ~ 0
+Text Label 2700 12100 2    50   ~ 0
 selnot8
-Text Label 5000 12250 2    50   ~ 0
+Text Label 2700 12200 2    50   ~ 0
 selnot9
-Text Label 5000 12350 2    50   ~ 0
+Text Label 2700 12300 2    50   ~ 0
 selnot10
-Text Label 5000 12450 2    50   ~ 0
+Text Label 2700 12400 2    50   ~ 0
 selnot11
-Text Label 5000 12550 2    50   ~ 0
+Text Label 2700 12500 2    50   ~ 0
 selnot12
-Text Label 5000 12650 2    50   ~ 0
+Text Label 2700 12600 2    50   ~ 0
 selnot13
-Text Label 5000 12750 2    50   ~ 0
+Text Label 2700 12700 2    50   ~ 0
 selnot14
-Text Label 5000 12850 2    50   ~ 0
+Text Label 2700 12800 2    50   ~ 0
 selnot15
-Text Label 5200 8900 0    50   ~ 0
+Text Label 2900 8850 0    50   ~ 0
 selnot0
-Text Label 5200 9000 0    50   ~ 0
+Text Label 2900 8950 0    50   ~ 0
 selnot1
-Text Label 5200 9100 0    50   ~ 0
+Text Label 2900 9050 0    50   ~ 0
 selnot2
-Text Label 5200 9200 0    50   ~ 0
+Text Label 2900 9150 0    50   ~ 0
 selnot3
-Text Label 5200 9300 0    50   ~ 0
+Text Label 2900 9250 0    50   ~ 0
 selnot4
-Text Label 5200 9400 0    50   ~ 0
+Text Label 2900 9350 0    50   ~ 0
 selnot5
-Text Label 5200 9500 0    50   ~ 0
+Text Label 2900 9450 0    50   ~ 0
 selnot6
-Text Label 5200 9600 0    50   ~ 0
+Text Label 2900 9550 0    50   ~ 0
 selnot7
-Text Label 5200 9700 0    50   ~ 0
+Text Label 2900 9650 0    50   ~ 0
 selnot8
-Text Label 5200 9800 0    50   ~ 0
+Text Label 2900 9750 0    50   ~ 0
 selnot9
-Text Label 5200 9900 0    50   ~ 0
+Text Label 2900 9850 0    50   ~ 0
 selnot10
-Text Label 5200 10000 0    50   ~ 0
+Text Label 2900 9950 0    50   ~ 0
 selnot11
-Text Label 5200 10100 0    50   ~ 0
+Text Label 2900 10050 0    50   ~ 0
 selnot12
-Text Label 5200 10200 0    50   ~ 0
+Text Label 2900 10150 0    50   ~ 0
 selnot13
-Text Label 5200 10300 0    50   ~ 0
+Text Label 2900 10250 0    50   ~ 0
 selnot14
-Text Label 5200 10400 0    50   ~ 0
+Text Label 2900 10350 0    50   ~ 0
 selnot15
-Text GLabel 6700 7250 2    50   Input ~ 0
+Text GLabel 4400 7200 2    50   Input ~ 0
 oalu0
-Text GLabel 6700 7350 2    50   Input ~ 0
+Text GLabel 4400 7300 2    50   Input ~ 0
 oalu1
-Text GLabel 6700 7450 2    50   Input ~ 0
+Text GLabel 4400 7400 2    50   Input ~ 0
 oalu2
-Text GLabel 6700 7550 2    50   Input ~ 0
+Text GLabel 4400 7500 2    50   Input ~ 0
 oalu3
-Text GLabel 6700 7650 2    50   Input ~ 0
+Text GLabel 4400 7600 2    50   Input ~ 0
 oalu4
-Text GLabel 6700 7750 2    50   Input ~ 0
+Text GLabel 4400 7700 2    50   Input ~ 0
 oalu5
-Text GLabel 6700 7850 2    50   Input ~ 0
+Text GLabel 4400 7800 2    50   Input ~ 0
 oalu6
-Text GLabel 6700 7950 2    50   Input ~ 0
+Text GLabel 4400 7900 2    50   Input ~ 0
 oalu7
-Text GLabel 6700 8050 2    50   Input ~ 0
+Text GLabel 4400 8000 2    50   Input ~ 0
 oalu8
-Text GLabel 6700 8150 2    50   Input ~ 0
+Text GLabel 4400 8100 2    50   Input ~ 0
 oalu9
-Text GLabel 6700 8250 2    50   Input ~ 0
+Text GLabel 4400 8200 2    50   Input ~ 0
 oalu10
-Text GLabel 6700 8350 2    50   Input ~ 0
+Text GLabel 4400 8300 2    50   Input ~ 0
 oalu11
-Text GLabel 6700 8450 2    50   Input ~ 0
+Text GLabel 4400 8400 2    50   Input ~ 0
 oalu12
-Text GLabel 6700 8550 2    50   Input ~ 0
+Text GLabel 4400 8500 2    50   Input ~ 0
 oalu13
-Text GLabel 6700 8650 2    50   Input ~ 0
+Text GLabel 4400 8600 2    50   Input ~ 0
 oalu14
-Text GLabel 7050 8750 2    50   Input ~ 0
+Text GLabel 4750 8700 2    50   Input ~ 0
 oalu15
 Wire Wire Line
-	8800 7650 8950 7650
+	15150 3700 15300 3700
 Wire Wire Line
-	8800 8050 8800 7850
+	15150 4100 15150 3900
 Wire Wire Line
-	8800 7850 8950 7850
+	15150 3900 15300 3900
 Wire Wire Line
-	8800 7450 8800 7650
+	15150 3500 15150 3700
 Wire Wire Line
-	8800 8850 8950 8850
+	15150 4900 15300 4900
 Wire Wire Line
-	8800 9250 8800 9050
+	15150 5300 15150 5100
 Wire Wire Line
-	8800 9050 8950 9050
+	15150 5100 15300 5100
 Wire Wire Line
-	8800 8650 8800 8850
+	15150 4700 15150 4900
 Wire Wire Line
-	8800 10050 8950 10050
+	15150 6100 15300 6100
 Wire Wire Line
-	8800 10450 8800 10250
+	15150 6500 15150 6300
 Wire Wire Line
-	8800 10250 8950 10250
+	15150 6300 15300 6300
 Wire Wire Line
-	8800 9850 8800 10050
+	15150 5900 15150 6100
 Wire Wire Line
-	8800 11250 8950 11250
+	15150 7300 15300 7300
 Wire Wire Line
-	8800 11650 8800 11450
+	15150 7700 15150 7500
 Wire Wire Line
-	8800 11450 8950 11450
+	15150 7500 15300 7500
 Wire Wire Line
-	8800 11050 8800 11250
+	15150 7100 15150 7300
 Wire Wire Line
-	9550 7750 9550 8250
+	15900 3800 15900 4300
 Wire Wire Line
-	9550 8250 9750 8250
+	15900 4300 16100 4300
 Wire Wire Line
-	9550 8450 9750 8450
+	15900 4500 16100 4500
 Wire Wire Line
-	9550 8450 9550 8950
+	15900 4500 15900 5000
 Wire Wire Line
-	9550 10150 9550 10650
+	15900 6200 15900 6700
 Wire Wire Line
-	9550 10650 9750 10650
+	15900 6700 16100 6700
 Wire Wire Line
-	9550 10850 9750 10850
+	15900 6900 16100 6900
 Wire Wire Line
-	9550 10850 9550 11350
+	15900 6900 15900 7400
 Wire Wire Line
-	10350 8350 10350 9450
+	16700 4400 16700 5500
 Wire Wire Line
-	10350 9450 10700 9450
+	16700 5500 17050 5500
 Wire Wire Line
-	10350 10750 10350 9650
+	16700 6800 16700 5700
 Wire Wire Line
-	10350 9650 10700 9650
+	16700 5700 17050 5700
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F08D0FB
-P 8500 7450
-F 0 "U?" H 8500 7775 50  0000 C CNN
-F 1 "74LS02" H 8500 7684 50  0000 C CNN
-F 2 "" H 8500 7450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 7450 50  0001 C CNN
-	1    8500 7450
+P 14850 3500
+F 0 "U?" H 14850 3825 50  0000 C CNN
+F 1 "74LS02" H 14850 3734 50  0000 C CNN
+F 2 "" H 14850 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 3500 50  0001 C CNN
+	1    14850 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F0B9A10
-P 8500 8050
-F 0 "U?" H 8500 8375 50  0000 C CNN
-F 1 "74LS02" H 8500 8284 50  0000 C CNN
-F 2 "" H 8500 8050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 8050 50  0001 C CNN
-	1    8500 8050
+P 14850 4100
+F 0 "U?" H 14850 4425 50  0000 C CNN
+F 1 "74LS02" H 14850 4334 50  0000 C CNN
+F 2 "" H 14850 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 4100 50  0001 C CNN
+	1    14850 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F0E32AE
-P 8500 8650
-F 0 "U?" H 8500 8975 50  0000 C CNN
-F 1 "74LS02" H 8500 8884 50  0000 C CNN
-F 2 "" H 8500 8650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 8650 50  0001 C CNN
-	1    8500 8650
+P 14850 4700
+F 0 "U?" H 14850 5025 50  0000 C CNN
+F 1 "74LS02" H 14850 4934 50  0000 C CNN
+F 2 "" H 14850 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 4700 50  0001 C CNN
+	1    14850 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F10CCEE
-P 8500 9250
-F 0 "U?" H 8500 9575 50  0000 C CNN
-F 1 "74LS02" H 8500 9484 50  0000 C CNN
-F 2 "" H 8500 9250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 9250 50  0001 C CNN
-	1    8500 9250
+P 14850 5300
+F 0 "U?" H 14850 5625 50  0000 C CNN
+F 1 "74LS02" H 14850 5534 50  0000 C CNN
+F 2 "" H 14850 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 5300 50  0001 C CNN
+	1    14850 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F136591
-P 8500 9850
-F 0 "U?" H 8500 10175 50  0000 C CNN
-F 1 "74LS02" H 8500 10084 50  0000 C CNN
-F 2 "" H 8500 9850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 9850 50  0001 C CNN
-	1    8500 9850
+P 14850 5900
+F 0 "U?" H 14850 6225 50  0000 C CNN
+F 1 "74LS02" H 14850 6134 50  0000 C CNN
+F 2 "" H 14850 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 5900 50  0001 C CNN
+	1    14850 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F160439
-P 8500 10450
-F 0 "U?" H 8500 10775 50  0000 C CNN
-F 1 "74LS02" H 8500 10684 50  0000 C CNN
-F 2 "" H 8500 10450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 10450 50  0001 C CNN
-	1    8500 10450
+P 14850 6500
+F 0 "U?" H 14850 6825 50  0000 C CNN
+F 1 "74LS02" H 14850 6734 50  0000 C CNN
+F 2 "" H 14850 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 6500 50  0001 C CNN
+	1    14850 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F18A0D0
-P 8500 11050
-F 0 "U?" H 8500 11375 50  0000 C CNN
-F 1 "74LS02" H 8500 11284 50  0000 C CNN
-F 2 "" H 8500 11050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 11050 50  0001 C CNN
-	1    8500 11050
+P 14850 7100
+F 0 "U?" H 14850 7425 50  0000 C CNN
+F 1 "74LS02" H 14850 7334 50  0000 C CNN
+F 2 "" H 14850 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 7100 50  0001 C CNN
+	1    14850 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F1B3FE1
-P 8500 11650
-F 0 "U?" H 8500 11975 50  0000 C CNN
-F 1 "74LS02" H 8500 11884 50  0000 C CNN
-F 2 "" H 8500 11650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8500 11650 50  0001 C CNN
-	1    8500 11650
+P 14850 7700
+F 0 "U?" H 14850 8025 50  0000 C CNN
+F 1 "74LS02" H 14850 7934 50  0000 C CNN
+F 2 "" H 14850 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 14850 7700 50  0001 C CNN
+	1    14850 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F1DDC1D
-P 9250 7750
-F 0 "U?" H 9250 8075 50  0000 C CNN
-F 1 "74LS02" H 9250 7984 50  0000 C CNN
-F 2 "" H 9250 7750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9250 7750 50  0001 C CNN
-	1    9250 7750
+P 15600 3800
+F 0 "U?" H 15600 4125 50  0000 C CNN
+F 1 "74LS02" H 15600 4034 50  0000 C CNN
+F 2 "" H 15600 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 15600 3800 50  0001 C CNN
+	1    15600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F207A28
-P 9250 8950
-F 0 "U?" H 9250 9275 50  0000 C CNN
-F 1 "74LS02" H 9250 9184 50  0000 C CNN
-F 2 "" H 9250 8950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9250 8950 50  0001 C CNN
-	1    9250 8950
+P 15600 5000
+F 0 "U?" H 15600 5325 50  0000 C CNN
+F 1 "74LS02" H 15600 5234 50  0000 C CNN
+F 2 "" H 15600 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 15600 5000 50  0001 C CNN
+	1    15600 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F231495
-P 9250 10150
-F 0 "U?" H 9250 10475 50  0000 C CNN
-F 1 "74LS02" H 9250 10384 50  0000 C CNN
-F 2 "" H 9250 10150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9250 10150 50  0001 C CNN
-	1    9250 10150
+P 15600 6200
+F 0 "U?" H 15600 6525 50  0000 C CNN
+F 1 "74LS02" H 15600 6434 50  0000 C CNN
+F 2 "" H 15600 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 15600 6200 50  0001 C CNN
+	1    15600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F25AF16
-P 9250 11350
-F 0 "U?" H 9250 11675 50  0000 C CNN
-F 1 "74LS02" H 9250 11584 50  0000 C CNN
-F 2 "" H 9250 11350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9250 11350 50  0001 C CNN
-	1    9250 11350
+P 15600 7400
+F 0 "U?" H 15600 7725 50  0000 C CNN
+F 1 "74LS02" H 15600 7634 50  0000 C CNN
+F 2 "" H 15600 7400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 15600 7400 50  0001 C CNN
+	1    15600 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F284D45
-P 10050 8350
-F 0 "U?" H 10050 8675 50  0000 C CNN
-F 1 "74LS02" H 10050 8584 50  0000 C CNN
-F 2 "" H 10050 8350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10050 8350 50  0001 C CNN
-	1    10050 8350
+P 16400 4400
+F 0 "U?" H 16400 4725 50  0000 C CNN
+F 1 "74LS02" H 16400 4634 50  0000 C CNN
+F 2 "" H 16400 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 16400 4400 50  0001 C CNN
+	1    16400 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F2AED0B
-P 10050 10750
-F 0 "U?" H 10050 11075 50  0000 C CNN
-F 1 "74LS02" H 10050 10984 50  0000 C CNN
-F 2 "" H 10050 10750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10050 10750 50  0001 C CNN
-	1    10050 10750
+P 16400 6800
+F 0 "U?" H 16400 7125 50  0000 C CNN
+F 1 "74LS02" H 16400 7034 50  0000 C CNN
+F 2 "" H 16400 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 16400 6800 50  0001 C CNN
+	1    16400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 1 1 5F2D88B0
-P 11000 9550
-F 0 "U?" H 11000 9875 50  0000 C CNN
-F 1 "74LS02" H 11000 9784 50  0000 C CNN
-F 2 "" H 11000 9550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 11000 9550 50  0001 C CNN
-	1    11000 9550
+P 17350 5600
+F 0 "U?" H 17350 5925 50  0000 C CNN
+F 1 "74LS02" H 17350 5834 50  0000 C CNN
+F 2 "" H 17350 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 17350 5600 50  0001 C CNN
+	1    17350 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 7350 7950 7350
+	14550 3400 14300 3400
 Wire Wire Line
-	8200 7550 7950 7550
+	14550 3600 14300 3600
 Wire Wire Line
-	8200 7950 7950 7950
+	14550 4000 14300 4000
 Wire Wire Line
-	8200 8150 7950 8150
+	14550 4200 14300 4200
 Wire Wire Line
-	8200 8550 7950 8550
+	14550 4600 14300 4600
 Wire Wire Line
-	8200 8750 7950 8750
+	14550 4800 14300 4800
 Wire Wire Line
-	8200 9150 7950 9150
+	14550 5200 14300 5200
 Wire Wire Line
-	8200 9350 7950 9350
+	14550 5400 14300 5400
 Wire Wire Line
-	8200 9750 7950 9750
+	14550 5800 14300 5800
 Wire Wire Line
-	8200 9950 7950 9950
+	14550 6000 14300 6000
 Wire Wire Line
-	8200 10350 7950 10350
+	14550 6400 14300 6400
 Wire Wire Line
-	8200 10550 7950 10550
+	14550 6600 14300 6600
 Wire Wire Line
-	8200 10950 7950 10950
+	14550 7000 14300 7000
 Wire Wire Line
-	8200 11150 7950 11150
+	14550 7200 14300 7200
 Wire Wire Line
-	8200 11550 7950 11550
+	14550 7600 14300 7600
 Wire Wire Line
-	8200 11750 7950 11750
-Text GLabel 11300 9550 2    50   Input ~ 0
+	14550 7800 14300 7800
+Text GLabel 17650 5600 2    50   Input ~ 0
 zr
 Entry Wire Line
-	7850 7250 7950 7350
+	14200 3300 14300 3400
 Entry Wire Line
-	7850 7450 7950 7550
+	14200 3500 14300 3600
 Entry Wire Line
-	7850 7850 7950 7950
+	14200 3900 14300 4000
 Entry Wire Line
-	7850 8050 7950 8150
+	14200 4100 14300 4200
 Entry Wire Line
-	7850 8450 7950 8550
+	14200 4500 14300 4600
 Entry Wire Line
-	7850 8650 7950 8750
+	14200 4700 14300 4800
 Entry Wire Line
-	7850 9050 7950 9150
+	14200 5100 14300 5200
 Entry Wire Line
-	7850 9250 7950 9350
+	14200 5300 14300 5400
 Entry Wire Line
-	7850 9650 7950 9750
+	14200 5700 14300 5800
 Entry Wire Line
-	7850 9850 7950 9950
+	14200 5900 14300 6000
 Entry Wire Line
-	7850 10250 7950 10350
+	14200 6300 14300 6400
 Entry Wire Line
-	7850 10450 7950 10550
+	14200 6500 14300 6600
 Entry Wire Line
-	7850 10850 7950 10950
+	14200 6900 14300 7000
 Entry Wire Line
-	7850 11050 7950 11150
+	14200 7100 14300 7200
 Entry Wire Line
-	7850 11450 7950 11550
+	14200 7500 14300 7600
 Entry Wire Line
-	7850 11650 7950 11750
-Text Label 7950 7350 0    50   ~ 0
+	14200 7700 14300 7800
+Text Label 14300 3400 0    50   ~ 0
 oalu0
-Text Label 7950 7550 0    50   ~ 0
+Text Label 14300 3600 0    50   ~ 0
 oalu1
-Text Label 7950 7950 0    50   ~ 0
+Text Label 14300 4000 0    50   ~ 0
 oalu2
-Text Label 7950 8150 0    50   ~ 0
+Text Label 14300 4200 0    50   ~ 0
 oalu3
-Text Label 7950 8550 0    50   ~ 0
+Text Label 14300 4600 0    50   ~ 0
 oalu4
-Text Label 7950 8750 0    50   ~ 0
+Text Label 14300 4800 0    50   ~ 0
 oalu5
-Text Label 7950 9150 0    50   ~ 0
+Text Label 14300 5200 0    50   ~ 0
 oalu6
-Text Label 7950 9350 0    50   ~ 0
+Text Label 14300 5400 0    50   ~ 0
 oalu7
-Text Label 7950 9750 0    50   ~ 0
+Text Label 14300 5800 0    50   ~ 0
 oalu8
-Text Label 7950 9950 0    50   ~ 0
+Text Label 14300 6000 0    50   ~ 0
 oalu9
-Text Label 7950 10350 0    50   ~ 0
+Text Label 14300 6400 0    50   ~ 0
 oalu10
-Text Label 7950 10550 0    50   ~ 0
+Text Label 14300 6600 0    50   ~ 0
 oalu11
-Text Label 7950 10950 0    50   ~ 0
+Text Label 14300 7000 0    50   ~ 0
 oalu12
-Text Label 7950 11150 0    50   ~ 0
+Text Label 14300 7200 0    50   ~ 0
 oalu13
-Text Label 7950 11550 0    50   ~ 0
+Text Label 14300 7600 0    50   ~ 0
 oalu14
-Text Label 7950 11750 0    50   ~ 0
+Text Label 14300 7800 0    50   ~ 0
 oalu15
-Text GLabel 7050 8850 2    50   Input ~ 0
+Text GLabel 4750 8800 2    50   Input ~ 0
 ng
 Wire Wire Line
-	6700 8750 6900 8750
+	4400 8700 4600 8700
 Wire Wire Line
-	6900 8850 6900 8750
+	4600 8800 4600 8700
 Wire Wire Line
-	6900 8750 7050 8750
-Connection ~ 6900 8750
+	4600 8700 4750 8700
+Connection ~ 4600 8700
 Wire Wire Line
-	7050 8850 6900 8850
+	4750 8800 4600 8800
 $Comp
 L nand2tetris:CY7C1020DV33 U?
 U 1 1 5F60485E
-P 12900 12850
-F 0 "U?" H 12875 13981 50  0000 C CNN
-F 1 "CY7C1020DV33" H 12875 13890 50  0000 C CNN
-F 2 "" H 12900 11200 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/100/CY7C1020DV33_38-05461_0I_V-258968.pdf" H 12900 11200 50  0001 C CNN
-	1    12900 12850
+P 9900 11100
+F 0 "U?" H 9875 12231 50  0000 C CNN
+F 1 "CY7C1020DV33" H 9875 12140 50  0000 C CNN
+F 2 "" H 9900 9450 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/100/CY7C1020DV33_38-05461_0I_V-258968.pdf" H 9900 9450 50  0001 C CNN
+	1    9900 11100
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xGxx:74AUC1G18 U?
+U 1 1 5F9C926D
+P 8450 10900
+F 0 "U?" H 8450 11167 50  0000 C CNN
+F 1 "74AUC1G18" H 8450 11076 50  0000 C CNN
+F 2 "" H 8450 10900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8450 10900 50  0001 C CNN
+	1    8450 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC1G18 U?
+U 1 1 5F9CDBDD
+P 8450 11400
+F 0 "U?" H 8450 11667 50  0000 C CNN
+F 1 "74AUC1G18" H 8450 11576 50  0000 C CNN
+F 2 "" H 8450 11400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8450 11400 50  0001 C CNN
+	1    8450 11400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 11050 0    50   Input ~ 0
+adr14
+Text GLabel 8250 10900 0    50   Input ~ 0
+load
+Text GLabel 8650 10850 2    50   Input ~ 0
+lram
+Text GLabel 8650 10950 2    50   Input ~ 0
+nlram
+Text GLabel 8250 11400 0    50   Input ~ 0
+nlram
+Text GLabel 8250 11550 0    50   Input ~ 0
+adr13
+Text GLabel 8650 11350 2    50   Input ~ 0
+lvram
+Text GLabel 8650 11450 2    50   Input ~ 0
+lkbd
+$Comp
+L 74xGxx:74AHCT1G04 U?
+U 1 1 5FAE2CD8
+P 9550 12800
+F 0 "U?" H 9525 13067 50  0000 C CNN
+F 1 "74AHCT1G04" H 9525 12976 50  0000 C CNN
+F 2 "" H 9550 12800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9550 12800 50  0001 C CNN
+	1    9550 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 12150 9950 12800
+Wire Wire Line
+	9950 12800 9800 12800
+Text GLabel 9250 12800 0    50   Input ~ 0
+lram
+Text GLabel 9750 12150 3    50   Input ~ 0
+low
+Text GLabel 9550 12150 3    50   Input ~ 0
+low
 Wire Bus Line
-	7850 7100 7850 11650
+	14200 3150 14200 7700
 Wire Bus Line
 	12150 950  12150 2500
 Wire Bus Line
@@ -3338,5 +3397,7 @@ Wire Bus Line
 Wire Bus Line
 	10700 950  10700 6450
 Wire Bus Line
-	5100 8800 5100 12950
+	2800 8750 2800 12900
+Text Notes 8800 12250 0    50   ~ 0
+read/write 16 bits
 $EndSCHEMATC
