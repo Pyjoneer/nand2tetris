@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CY7C1020DV33
+F https://cz.mouser.com/datasheet/2/100/CY7C1020DV33_38-05461_0I_V-258968.pdf
+$ENDCMP
+#
+$CMP SN74CBT16233
+F http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf
+$ENDCMP
+#
+#End Doc Library
