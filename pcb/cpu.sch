@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -3317,10 +3317,10 @@ Connection ~ 4600 8700
 Wire Wire Line
 	4750 8800 4600 8800
 $Comp
-L nand2tetris:CY7C1020DV33 U?
+L nand2tetris:CY7C1020DV33 RAM
 U 1 1 5F60485E
 P 7000 11500
-F 0 "U?" H 6975 12631 50  0000 C CNN
+F 0 "RAM" H 6975 12631 50  0000 C CNN
 F 1 "CY7C1020DV33" H 6975 12540 50  0000 C CNN
 F 2 "" H 7000 9850 50  0001 C CNN
 F 3 "https://cz.mouser.com/datasheet/2/100/CY7C1020DV33_38-05461_0I_V-258968.pdf" H 7000 9850 50  0001 C CNN
@@ -3366,45 +3366,45 @@ Wire Wire Line
 $Comp
 L 74xGxx:74AUC1G18 U?
 U 1 1 5FCDEBA5
-P 7300 9950
-F 0 "U?" H 7300 10217 50  0000 C CNN
-F 1 "74AUC1G18" H 7300 10126 50  0000 C CNN
-F 2 "" H 7300 9950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7300 9950 50  0001 C CNN
-	1    7300 9950
+P 7200 15100
+F 0 "U?" H 7200 15367 50  0000 C CNN
+F 1 "74AUC1G18" H 7200 15276 50  0000 C CNN
+F 2 "" H 7200 15100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7200 15100 50  0001 C CNN
+	1    7200 15100
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 9950 0    50   Input ~ 0
+Text GLabel 6450 15100 0    50   Input ~ 0
 adr14
-Text GLabel 6550 9800 0    50   Input ~ 0
+Text GLabel 6450 14950 0    50   Input ~ 0
 load
-Text GLabel 6550 10100 0    50   Input ~ 0
+Text GLabel 6450 15250 0    50   Input ~ 0
 adr13
-Text GLabel 7500 9900 2    50   Input ~ 0
+Text GLabel 7400 15050 2    50   Input ~ 0
 lvram
-Text GLabel 7500 10000 2    50   Input ~ 0
+Text GLabel 7400 15150 2    50   Input ~ 0
 lkbd
-Text GLabel 7500 9750 2    50   Input ~ 0
+Text GLabel 7400 14900 2    50   Input ~ 0
 lram
 $Comp
 L 74xGxx:74AUC1G18 U?
 U 1 1 5FCDEB9F
-P 6750 9800
-F 0 "U?" H 6750 10067 50  0000 C CNN
-F 1 "74AUC1G18" H 6750 9976 50  0000 C CNN
-F 2 "" H 6750 9800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6750 9800 50  0001 C CNN
-	1    6750 9800
+P 6650 14950
+F 0 "U?" H 6650 15217 50  0000 C CNN
+F 1 "74AUC1G18" H 6650 15126 50  0000 C CNN
+F 2 "" H 6650 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6650 14950 50  0001 C CNN
+	1    6650 14950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 10100 7100 10100
+	6450 15250 7000 15250
 Wire Wire Line
-	6950 9850 6950 9950
+	6850 15000 6850 15100
 Wire Wire Line
-	6950 9950 7100 9950
+	6850 15100 7000 15100
 Wire Wire Line
-	6950 9750 7500 9750
+	6850 14900 7400 14900
 Wire Wire Line
 	6950 12550 6950 13250
 Wire Wire Line
@@ -4727,7 +4727,7 @@ Wire Wire Line
 	10350 10550 11150 10550
 Text Notes 11000 14000 2    50   ~ 0
 výpočet překročení maximální\npaměti - 0x6000
-Text Notes 7300 9350 2    50   ~ 0
+Text Notes 7200 14500 2    50   ~ 0
 výběr segmentu paměti
 Wire Wire Line
 	12750 13500 12750 13600
@@ -4829,17 +4829,266 @@ Text Label 12200 11650 0    50   ~ 0
 kbd14
 Text Label 12200 11750 0    50   ~ 0
 kbd15
+Wire Wire Line
+	7500 7000 7600 7000
+Connection ~ 7600 7000
+Wire Wire Line
+	7600 7000 7600 6750
 $Comp
-L nand2tetris:74FCT163374APAG8 U?
-U 1 1 5E243AE7
-P 9350 8200
-F 0 "U?" H 9375 9628 50  0000 C CNN
-F 1 "74FCT163374APAG8" H 9375 9537 50  0000 C CNN
-F 2 "" H 9350 8200 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/464/IDT_74FCT163374_DST_20180507-1485820.pdf" H 9350 8200 50  0001 C CNN
-	1    9350 8200
+L power:VCC #PWR?
+U 1 1 5CE0E1A8
+P 7600 6750
+F 0 "#PWR?" H 7600 6600 50  0001 C CNN
+F 1 "VCC" H 7617 6923 50  0000 C CNN
+F 2 "" H 7600 6750 50  0001 C CNN
+F 3 "" H 7600 6750 50  0001 C CNN
+	1    7600 6750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7600 9600 7600 9700
+$Comp
+L power:GND #PWR?
+U 1 1 5CE9232D
+P 7600 9700
+F 0 "#PWR?" H 7600 9450 50  0001 C CNN
+F 1 "GND" H 7605 9527 50  0000 C CNN
+F 2 "" H 7600 9700 50  0001 C CNN
+F 3 "" H 7600 9700 50  0001 C CNN
+	1    7600 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 7050 11750 7050
+Connection ~ 11750 7050
+Wire Wire Line
+	11750 7050 11750 6800
+$Comp
+L power:VCC #PWR?
+U 1 1 5CF160E3
+P 11750 6800
+F 0 "#PWR?" H 11750 6650 50  0001 C CNN
+F 1 "VCC" H 11767 6973 50  0000 C CNN
+F 2 "" H 11750 6800 50  0001 C CNN
+F 3 "" H 11750 6800 50  0001 C CNN
+	1    11750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 9650 11750 9750
+$Comp
+L power:GND #PWR?
+U 1 1 5CF160EA
+P 11750 9750
+F 0 "#PWR?" H 11750 9500 50  0001 C CNN
+F 1 "GND" H 11755 9577 50  0000 C CNN
+F 2 "" H 11750 9750 50  0001 C CNN
+F 3 "" H 11750 9750 50  0001 C CNN
+	1    11750 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 9000 6950 9000
+Wire Wire Line
+	6950 9000 6950 8900
+Wire Wire Line
+	6950 8900 7000 8900
+Wire Wire Line
+	6950 8900 6850 8900
+Connection ~ 6950 8900
+Text GLabel 6850 8900 0    50   Input ~ 0
+low
+Wire Wire Line
+	7300 9600 7400 9600
+Wire Wire Line
+	11450 9650 11550 9650
+$Comp
+L nand2tetris:SN74LVCH16374A Register_A
+U 1 1 5CE46AD9
+P 7600 8150
+F 0 "Register_A" H 7625 9478 50  0000 C CNN
+F 1 "SN74LVCH16374A" H 7625 9387 50  0000 C CNN
+F 2 "" H 7600 8150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf" H 7600 8150 50  0001 C CNN
+	1    7600 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 9600 7800 9600
+Wire Wire Line
+	7700 7000 7800 7000
+$Comp
+L nand2tetris:SN74LVCH16374A Register_D
+U 1 1 5CE46C5B
+P 11750 8200
+F 0 "Register_D" H 11775 9528 50  0000 C CNN
+F 1 "SN74LVCH16374A" H 11775 9437 50  0000 C CNN
+F 2 "" H 11750 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf" H 11750 8200 50  0001 C CNN
+	1    11750 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 9650 11950 9650
+Wire Wire Line
+	11850 7050 11950 7050
+Text GLabel 11000 8950 0    50   Input ~ 0
+low
+Wire Wire Line
+	11150 9050 11150 8950
+Wire Wire Line
+	11150 8950 11000 8950
+Connection ~ 11150 8950
+$Comp
+L 74xx:74LS08 U?
+U 1 1 5D16B70B
+P 6300 9200
+F 0 "U?" H 6300 9525 50  0000 C CNN
+F 1 "74LS08" H 6300 9434 50  0000 C CNN
+F 2 "" H 6300 9200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6300 9200 50  0001 C CNN
+	1    6300 9200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 9300 0    50   Input ~ 0
+clk
+Text GLabel 6000 9100 0    50   Input ~ 0
+la
+Wire Wire Line
+	6600 9200 6950 9200
+Wire Wire Line
+	7000 9100 6950 9100
+Wire Wire Line
+	6950 9100 6950 9200
+Connection ~ 6950 9200
+Wire Wire Line
+	6950 9200 7000 9200
+$Comp
+L 74xx:74LS08 U?
+U 1 1 5D59C6C4
+P 10450 9250
+F 0 "U?" H 10450 9575 50  0000 C CNN
+F 1 "74LS08" H 10450 9484 50  0000 C CNN
+F 2 "" H 10450 9250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10450 9250 50  0001 C CNN
+	1    10450 9250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 9350 0    50   Input ~ 0
+clk
+Text GLabel 10150 9150 0    50   Input ~ 0
+ld
+Wire Wire Line
+	10750 9250 11100 9250
+Wire Wire Line
+	11150 9150 11100 9150
+Wire Wire Line
+	11100 9150 11100 9250
+Connection ~ 11100 9250
+Wire Wire Line
+	11100 9250 11150 9250
+Wire Wire Line
+	8250 7200 8450 7200
+Wire Wire Line
+	8250 7300 8450 7300
+Wire Wire Line
+	8250 7400 8450 7400
+Wire Wire Line
+	8250 7500 8450 7500
+Wire Wire Line
+	8250 7600 8450 7600
+Wire Wire Line
+	8250 7700 8450 7700
+Wire Wire Line
+	8250 7800 8450 7800
+Wire Wire Line
+	8250 7900 8450 7900
+Wire Wire Line
+	8250 8000 8450 8000
+Wire Wire Line
+	8250 8100 8450 8100
+Wire Wire Line
+	8250 8200 8450 8200
+Wire Wire Line
+	8250 8300 8450 8300
+Wire Wire Line
+	8250 8400 8450 8400
+Wire Wire Line
+	8250 8500 8450 8500
+Wire Wire Line
+	8250 8600 8450 8600
+Wire Wire Line
+	8250 8700 8450 8700
+Entry Wire Line
+	8450 7200 8550 7300
+Entry Wire Line
+	8450 7300 8550 7400
+Entry Wire Line
+	8450 7400 8550 7500
+Entry Wire Line
+	8450 7500 8550 7600
+Entry Wire Line
+	8450 7600 8550 7700
+Entry Wire Line
+	8450 7700 8550 7800
+Entry Wire Line
+	8450 7800 8550 7900
+Entry Wire Line
+	8450 7900 8550 8000
+Entry Wire Line
+	8450 8000 8550 8100
+Entry Wire Line
+	8450 8100 8550 8200
+Entry Wire Line
+	8450 8200 8550 8300
+Entry Wire Line
+	8450 8300 8550 8400
+Entry Wire Line
+	8450 8400 8550 8500
+Entry Wire Line
+	8450 8500 8550 8600
+Entry Wire Line
+	8450 8600 8550 8700
+Entry Wire Line
+	8450 8700 8550 8800
+Text Label 8450 7200 2    50   ~ 0
+ar0
+Text Label 8450 7300 2    50   ~ 0
+ar1
+Text Label 8450 7400 2    50   ~ 0
+ar2
+Text Label 8450 7500 2    50   ~ 0
+ar3
+Text Label 8450 7600 2    50   ~ 0
+ar4
+Text Label 8450 7700 2    50   ~ 0
+ar5
+Text Label 8450 7800 2    50   ~ 0
+ar6
+Text Label 8450 7900 2    50   ~ 0
+ar7
+Text Label 8450 8000 2    50   ~ 0
+ar8
+Text Label 8450 8100 2    50   ~ 0
+ar9
+Text Label 8450 8200 2    50   ~ 0
+ar10
+Text Label 8450 8300 2    50   ~ 0
+ar11
+Text Label 8450 8400 2    50   ~ 0
+ar12
+Text Label 8450 8500 2    50   ~ 0
+ar13
+Text Label 8450 8600 2    50   ~ 0
+ar14
+Text Label 8450 8700 2    50   ~ 0
+ar15
+$Sheet
+S 19100 12400 2850 1450
+U 5D7D2E7C
+F0 "registers" 50
+F1 "registers.sch" 50
+$EndSheet
 Wire Bus Line
 	13650 10350 13650 13350
 Wire Bus Line
@@ -4864,6 +5113,8 @@ Wire Bus Line
 	17500 10000 17500 11850
 Wire Bus Line
 	12100 10000 12100 11650
+Wire Bus Line
+	8550 7100 8550 8800
 Wire Bus Line
 	5100 1000 5100 6500
 Wire Bus Line
