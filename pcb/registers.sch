@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:cpu-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -335,8 +335,6 @@ Text GLabel 2300 3250 0    50   Input ~ 0
 CLK
 Wire Wire Line
 	2300 3250 2350 3250
-Text HLabel 2300 3050 0    50   Input ~ 0
-la
 Wire Wire Line
 	2350 3050 2300 3050
 Wire Wire Line
@@ -535,8 +533,6 @@ Text GLabel 6200 2600 0    50   Input ~ 0
 oalu14
 Text GLabel 6200 2700 0    50   Input ~ 0
 oalu15
-Text GLabel 1450 4500 3    50   Input ~ 0
-ins15
 Text GLabel 7750 1200 2    50   Input ~ 0
 x0
 Text GLabel 7750 1300 2    50   Input ~ 0
@@ -607,4 +603,8 @@ Connection ~ 7050 1000
 Wire Wire Line
 	3950 950  4050 950 
 Connection ~ 4050 950 
+Text GLabel 2300 3050 0    50   Input ~ 0
+la
+Text GLabel 1450 4500 3    50   Input ~ 0
+insa
 $EndSCHEMATC

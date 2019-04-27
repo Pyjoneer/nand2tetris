@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:cpu-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -335,8 +335,6 @@ Text GLabel 2300 3250 0    50   Input ~ 0
 CLK
 Wire Wire Line
 	2300 3250 2350 3250
-Text HLabel 2300 3050 0    50   Input ~ 0
-la
 Wire Wire Line
 	2350 3050 2300 3050
 Wire Wire Line
@@ -535,6 +533,78 @@ Text GLabel 6200 2600 0    50   Input ~ 0
 oalu14
 Text GLabel 6200 2700 0    50   Input ~ 0
 oalu15
+Text GLabel 7750 1200 2    50   Input ~ 0
+x0
+Text GLabel 7750 1300 2    50   Input ~ 0
+x1
+Text GLabel 7750 1400 2    50   Input ~ 0
+x2
+Text GLabel 7750 1500 2    50   Input ~ 0
+x3
+Text GLabel 7750 1600 2    50   Input ~ 0
+x4
+Text GLabel 7750 1700 2    50   Input ~ 0
+x5
+Text GLabel 7750 1800 2    50   Input ~ 0
+x6
+Text GLabel 7750 1900 2    50   Input ~ 0
+x7
+Text GLabel 7750 2000 2    50   Input ~ 0
+x8
+Text GLabel 7750 2100 2    50   Input ~ 0
+x9
+Text GLabel 7750 2200 2    50   Input ~ 0
+x10
+Text GLabel 7750 2300 2    50   Input ~ 0
+x11
+Text GLabel 7750 2400 2    50   Input ~ 0
+x12
+Text GLabel 7750 2500 2    50   Input ~ 0
+x13
+Text GLabel 7750 2600 2    50   Input ~ 0
+x14
+Text GLabel 7750 2700 2    50   Input ~ 0
+x15
+Wire Wire Line
+	7600 1200 7750 1200
+Wire Wire Line
+	7600 1300 7750 1300
+Wire Wire Line
+	7600 1400 7750 1400
+Wire Wire Line
+	7600 1500 7750 1500
+Wire Wire Line
+	7600 1600 7750 1600
+Wire Wire Line
+	7600 1700 7750 1700
+Wire Wire Line
+	7600 1800 7750 1800
+Wire Wire Line
+	7600 1900 7750 1900
+Wire Wire Line
+	7600 2000 7750 2000
+Wire Wire Line
+	7600 2100 7750 2100
+Wire Wire Line
+	7600 2200 7750 2200
+Wire Wire Line
+	7600 2300 7750 2300
+Wire Wire Line
+	7600 2400 7750 2400
+Wire Wire Line
+	7600 2500 7750 2500
+Wire Wire Line
+	7600 2600 7750 2600
+Wire Wire Line
+	7600 2700 7750 2700
+Wire Wire Line
+	6950 1000 7050 1000
+Connection ~ 7050 1000
+Wire Wire Line
+	3950 950  4050 950 
+Connection ~ 4050 950 
+Text GLabel 2300 3050 0    50   Input ~ 0
+la
 Text GLabel 1450 4500 3    50   Input ~ 0
-ins15
+insa
 $EndSCHEMATC

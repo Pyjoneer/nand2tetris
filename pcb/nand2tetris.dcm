@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC161
+D Presettable synchronous 4-bit binary counter; asynchronous
+K counter
+F https://cz.mouser.com/datasheet/2/916/74LVC161-1319465.pdf
+$ENDCMP
+#
 $CMP CY7C1020DV33
 F https://cz.mouser.com/datasheet/2/100/CY7C1020DV33_38-05461_0I_V-258968.pdf
 $ENDCMP

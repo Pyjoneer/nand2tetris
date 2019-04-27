@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:cpu-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 2
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -4829,296 +4829,58 @@ Text Label 12200 11650 0    50   ~ 0
 kbd14
 Text Label 12200 11750 0    50   ~ 0
 kbd15
-Wire Wire Line
-	7500 7000 7600 7000
-Connection ~ 7600 7000
-Wire Wire Line
-	7600 7000 7600 6750
-$Comp
-L power:VCC #PWR?
-U 1 1 5CE0E1A8
-P 7600 6750
-F 0 "#PWR?" H 7600 6600 50  0001 C CNN
-F 1 "VCC" H 7617 6923 50  0000 C CNN
-F 2 "" H 7600 6750 50  0001 C CNN
-F 3 "" H 7600 6750 50  0001 C CNN
-	1    7600 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 9600 7600 9700
-$Comp
-L power:GND #PWR?
-U 1 1 5CE9232D
-P 7600 9700
-F 0 "#PWR?" H 7600 9450 50  0001 C CNN
-F 1 "GND" H 7605 9527 50  0000 C CNN
-F 2 "" H 7600 9700 50  0001 C CNN
-F 3 "" H 7600 9700 50  0001 C CNN
-	1    7600 9700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11650 7050 11750 7050
-Connection ~ 11750 7050
-Wire Wire Line
-	11750 7050 11750 6800
-$Comp
-L power:VCC #PWR?
-U 1 1 5CF160E3
-P 11750 6800
-F 0 "#PWR?" H 11750 6650 50  0001 C CNN
-F 1 "VCC" H 11767 6973 50  0000 C CNN
-F 2 "" H 11750 6800 50  0001 C CNN
-F 3 "" H 11750 6800 50  0001 C CNN
-	1    11750 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11750 9650 11750 9750
-$Comp
-L power:GND #PWR?
-U 1 1 5CF160EA
-P 11750 9750
-F 0 "#PWR?" H 11750 9500 50  0001 C CNN
-F 1 "GND" H 11755 9577 50  0000 C CNN
-F 2 "" H 11750 9750 50  0001 C CNN
-F 3 "" H 11750 9750 50  0001 C CNN
-	1    11750 9750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 9000 6950 9000
-Wire Wire Line
-	6950 9000 6950 8900
-Wire Wire Line
-	6950 8900 7000 8900
-Wire Wire Line
-	6950 8900 6850 8900
-Connection ~ 6950 8900
-Text GLabel 6850 8900 0    50   Input ~ 0
-low
-Wire Wire Line
-	7300 9600 7400 9600
-Wire Wire Line
-	11450 9650 11550 9650
-$Comp
-L nand2tetris:SN74LVCH16374A Register_A
-U 1 1 5CE46AD9
-P 7600 8150
-F 0 "Register_A" H 7625 9478 50  0000 C CNN
-F 1 "SN74LVCH16374A" H 7625 9387 50  0000 C CNN
-F 2 "" H 7600 8150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf" H 7600 8150 50  0001 C CNN
-	1    7600 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 9600 7800 9600
-Wire Wire Line
-	7700 7000 7800 7000
-$Comp
-L nand2tetris:SN74LVCH16374A Register_D
-U 1 1 5CE46C5B
-P 11750 8200
-F 0 "Register_D" H 11775 9528 50  0000 C CNN
-F 1 "SN74LVCH16374A" H 11775 9437 50  0000 C CNN
-F 2 "" H 11750 8200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf" H 11750 8200 50  0001 C CNN
-	1    11750 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11850 9650 11950 9650
-Wire Wire Line
-	11850 7050 11950 7050
-Text GLabel 11000 8950 0    50   Input ~ 0
-low
-Wire Wire Line
-	11150 9050 11150 8950
-Wire Wire Line
-	11150 8950 11000 8950
-Connection ~ 11150 8950
-$Comp
-L 74xx:74LS08 U?
-U 1 1 5D16B70B
-P 6300 9200
-F 0 "U?" H 6300 9525 50  0000 C CNN
-F 1 "74LS08" H 6300 9434 50  0000 C CNN
-F 2 "" H 6300 9200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6300 9200 50  0001 C CNN
-	1    6300 9200
-	1    0    0    -1  
-$EndComp
-Text GLabel 6000 9300 0    50   Input ~ 0
-clk
-Text GLabel 6000 9100 0    50   Input ~ 0
-la
-Wire Wire Line
-	6600 9200 6950 9200
-Wire Wire Line
-	7000 9100 6950 9100
-Wire Wire Line
-	6950 9100 6950 9200
-Connection ~ 6950 9200
-Wire Wire Line
-	6950 9200 7000 9200
-$Comp
-L 74xx:74LS08 U?
-U 1 1 5D59C6C4
-P 10450 9250
-F 0 "U?" H 10450 9575 50  0000 C CNN
-F 1 "74LS08" H 10450 9484 50  0000 C CNN
-F 2 "" H 10450 9250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10450 9250 50  0001 C CNN
-	1    10450 9250
-	1    0    0    -1  
-$EndComp
-Text GLabel 10150 9350 0    50   Input ~ 0
-clk
-Text GLabel 10150 9150 0    50   Input ~ 0
-ld
-Wire Wire Line
-	10750 9250 11100 9250
-Wire Wire Line
-	11150 9150 11100 9150
-Wire Wire Line
-	11100 9150 11100 9250
-Connection ~ 11100 9250
-Wire Wire Line
-	11100 9250 11150 9250
-Wire Wire Line
-	8250 7200 8450 7200
-Wire Wire Line
-	8250 7300 8450 7300
-Wire Wire Line
-	8250 7400 8450 7400
-Wire Wire Line
-	8250 7500 8450 7500
-Wire Wire Line
-	8250 7600 8450 7600
-Wire Wire Line
-	8250 7700 8450 7700
-Wire Wire Line
-	8250 7800 8450 7800
-Wire Wire Line
-	8250 7900 8450 7900
-Wire Wire Line
-	8250 8000 8450 8000
-Wire Wire Line
-	8250 8100 8450 8100
-Wire Wire Line
-	8250 8200 8450 8200
-Wire Wire Line
-	8250 8300 8450 8300
-Wire Wire Line
-	8250 8400 8450 8400
-Wire Wire Line
-	8250 8500 8450 8500
-Wire Wire Line
-	8250 8600 8450 8600
-Wire Wire Line
-	8250 8700 8450 8700
-Entry Wire Line
-	8450 7200 8550 7300
-Entry Wire Line
-	8450 7300 8550 7400
-Entry Wire Line
-	8450 7400 8550 7500
-Entry Wire Line
-	8450 7500 8550 7600
-Entry Wire Line
-	8450 7600 8550 7700
-Entry Wire Line
-	8450 7700 8550 7800
-Entry Wire Line
-	8450 7800 8550 7900
-Entry Wire Line
-	8450 7900 8550 8000
-Entry Wire Line
-	8450 8000 8550 8100
-Entry Wire Line
-	8450 8100 8550 8200
-Entry Wire Line
-	8450 8200 8550 8300
-Entry Wire Line
-	8450 8300 8550 8400
-Entry Wire Line
-	8450 8400 8550 8500
-Entry Wire Line
-	8450 8500 8550 8600
-Entry Wire Line
-	8450 8600 8550 8700
-Entry Wire Line
-	8450 8700 8550 8800
-Text Label 8450 7200 2    50   ~ 0
-ar0
-Text Label 8450 7300 2    50   ~ 0
-ar1
-Text Label 8450 7400 2    50   ~ 0
-ar2
-Text Label 8450 7500 2    50   ~ 0
-ar3
-Text Label 8450 7600 2    50   ~ 0
-ar4
-Text Label 8450 7700 2    50   ~ 0
-ar5
-Text Label 8450 7800 2    50   ~ 0
-ar6
-Text Label 8450 7900 2    50   ~ 0
-ar7
-Text Label 8450 8000 2    50   ~ 0
-ar8
-Text Label 8450 8100 2    50   ~ 0
-ar9
-Text Label 8450 8200 2    50   ~ 0
-ar10
-Text Label 8450 8300 2    50   ~ 0
-ar11
-Text Label 8450 8400 2    50   ~ 0
-ar12
-Text Label 8450 8500 2    50   ~ 0
-ar13
-Text Label 8450 8600 2    50   ~ 0
-ar14
-Text Label 8450 8700 2    50   ~ 0
-ar15
 $Sheet
-S 19100 12400 2850 1450
+S 19350 12400 2850 1450
 U 5D7D2E7C
 F0 "registers" 50
 F1 "registers.sch" 50
 $EndSheet
+$Sheet
+S 17550 12400 1400 1450
+U 5CCE1DA3
+F0 "instruction decoder" 50
+F1 "instruction_decoder.sch" 50
+$EndSheet
+$Sheet
+S 18450 10250 1350 1300
+U 5D0AFC40
+F0 "alu" 50
+F1 "alu.sch" 50
+$EndSheet
 Wire Bus Line
-	13650 10350 13650 13350
+	12100 10000 12100 11650
 Wire Bus Line
-	14200 3150 14200 7700
+	17500 10000 17500 11850
 Wire Bus Line
-	12150 950  12150 2500
+	7750 10550 7750 12300
 Wire Bus Line
-	6550 1000 6550 2550
-Wire Bus Line
-	14000 10000 14000 11650
-Wire Bus Line
-	14000 11750 14000 13350
+	15850 11750 15850 13350
 Wire Bus Line
 	15550 10350 15550 13350
 Wire Bus Line
 	15850 10000 15850 11650
 Wire Bus Line
-	15850 11750 15850 13350
+	14000 11750 14000 13350
 Wire Bus Line
-	7750 10550 7750 12300
+	13650 10350 13650 13350
 Wire Bus Line
-	17500 10000 17500 11850
+	14000 10000 14000 11650
 Wire Bus Line
-	12100 10000 12100 11650
+	14200 3150 14200 7700
 Wire Bus Line
-	8550 7100 8550 8800
+	2800 8750 2800 12900
 Wire Bus Line
-	5100 1000 5100 6500
+	12150 950  12150 2500
 Wire Bus Line
 	10700 950  10700 6450
 Wire Bus Line
-	2800 8750 2800 12900
+	6550 1000 6550 2550
+Wire Bus Line
+	5100 1000 5100 6500
+$Sheet
+S 14900 14100 1600 1550
+U 5D1D0090
+F0 "pc" 50
+F1 "program_counter.sch" 50
+$EndSheet
 $EndSCHEMATC
