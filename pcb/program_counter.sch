@@ -759,13 +759,6 @@ F 3 "" H 2150 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 6850 2150 6950
-Wire Wire Line
-	4200 6700 4250 6700
-Wire Wire Line
-	4250 6700 4250 6850
-Connection ~ 4250 6700
-Wire Wire Line
-	4250 6700 4300 6700
 $Comp
 L power:GND #PWR?
 U 1 1 5CDFD324
@@ -898,8 +891,47 @@ NoConn ~ 4500 6700
 NoConn ~ 4600 6700
 NoConn ~ 4700 6700
 NoConn ~ 4800 6700
-Text GLabel 4050 6800 3    50   Input ~ 0
+Text GLabel 4050 6850 3    50   Input ~ 0
 high
 Wire Wire Line
-	4050 6700 4050 6800
+	3850 6700 3850 6850
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD0642
+P 3850 6850
+F 0 "#PWR?" H 3850 6600 50  0001 C CNN
+F 1 "GND" H 3855 6677 50  0000 C CNN
+F 2 "" H 3850 6850 50  0001 C CNN
+F 3 "" H 3850 6850 50  0001 C CNN
+	1    3850 6850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3950 6700
+NoConn ~ 3750 6700
+Wire Wire Line
+	3550 6700 3550 6750
+Wire Wire Line
+	3550 6750 3600 6750
+Wire Wire Line
+	3650 6750 3650 6700
+Wire Wire Line
+	3600 6750 3600 6850
+Connection ~ 3600 6750
+Wire Wire Line
+	3600 6750 3650 6750
+Text GLabel 3600 6850 3    50   Input ~ 0
+high
+Wire Wire Line
+	4200 6700 4200 6750
+Wire Wire Line
+	4200 6750 4250 6750
+Wire Wire Line
+	4300 6750 4300 6700
+Wire Wire Line
+	4250 6750 4250 6850
+Connection ~ 4250 6750
+Wire Wire Line
+	4250 6750 4300 6750
+Wire Wire Line
+	4050 6700 4050 6850
 $EndSCHEMATC

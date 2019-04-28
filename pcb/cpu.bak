@@ -14,70 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1450 2450 2    50   Input ~ 0
-y15
-Text GLabel 1450 2350 2    50   Input ~ 0
-y14
-Text GLabel 1450 2250 2    50   Input ~ 0
-y13
-Text GLabel 1450 2150 2    50   Input ~ 0
-y12
-Text GLabel 1450 2050 2    50   Input ~ 0
-y11
-Text GLabel 1450 1950 2    50   Input ~ 0
-y10
-Text GLabel 1450 1850 2    50   Input ~ 0
-y9
-Text GLabel 1450 1750 2    50   Input ~ 0
-y8
-Text GLabel 1450 1650 2    50   Input ~ 0
-y7
-Text GLabel 1450 1550 2    50   Input ~ 0
-y6
-Text GLabel 1450 1450 2    50   Input ~ 0
-y5
-Text GLabel 1450 1350 2    50   Input ~ 0
-y4
-Text GLabel 1450 1250 2    50   Input ~ 0
-y3
-Text GLabel 1450 1150 2    50   Input ~ 0
-y2
-Text GLabel 1450 1050 2    50   Input ~ 0
-y1
-Text GLabel 1450 950  2    50   Input ~ 0
-y0
-Text GLabel 950  2450 0    50   Input ~ 0
-x15
-Text GLabel 950  2350 0    50   Input ~ 0
-x14
-Text GLabel 950  2250 0    50   Input ~ 0
-x13
-Text GLabel 950  2150 0    50   Input ~ 0
-x12
-Text GLabel 950  2050 0    50   Input ~ 0
-x11
-Text GLabel 950  1950 0    50   Input ~ 0
-x10
-Text GLabel 950  1850 0    50   Input ~ 0
-x9
-Text GLabel 950  1750 0    50   Input ~ 0
-x8
-Text GLabel 950  1650 0    50   Input ~ 0
-x7
-Text GLabel 950  1550 0    50   Input ~ 0
-x6
-Text GLabel 950  1450 0    50   Input ~ 0
-x5
-Text GLabel 950  1350 0    50   Input ~ 0
-x4
-Text GLabel 950  1250 0    50   Input ~ 0
-x3
-Text GLabel 950  1150 0    50   Input ~ 0
-x2
-Text GLabel 950  1050 0    50   Input ~ 0
-x1
-Text GLabel 950  950  0    50   Input ~ 0
-x0
 Text GLabel 8250 2650 2    50   Input ~ 0
 opx15
 Text GLabel 8250 2550 2    50   Input ~ 0
@@ -1866,29 +1802,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 21400 3350 50  0001 C CNN
 	1    21400 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 3150 0    50   Input ~ 0
-no
-Text GLabel 1000 3050 0    50   Input ~ 0
-f
-Text GLabel 1000 2950 0    50   Input ~ 0
-ny
-Text GLabel 1000 2850 0    50   Input ~ 0
-zy
-Text GLabel 1000 2750 0    50   Input ~ 0
-nx
-Text GLabel 1000 2650 0    50   Input ~ 0
-zx
-$Comp
-L Connector_Generic_MountingPin:Conn_01x06_MountingPin J?
-U 1 1 5CBA2E88
-P 1200 2850
-F 0 "J?" H 1288 2764 50  0000 L CNN
-F 1 "Conn_01x06_MountingPin" H 1288 2673 50  0000 L CNN
-F 2 "" H 1200 2850 50  0001 C CNN
-F 3 "~" H 1200 2850 50  0001 C CNN
-	1    1200 2850
-	1    0    0    -1  
-$EndComp
 Text GLabel 15000 1600 0    50   Input ~ 0
 opx0
 Text GLabel 15000 1700 0    50   Input ~ 0
@@ -1905,60 +1818,6 @@ Text GLabel 15000 2300 0    50   Input ~ 0
 opy2
 Text GLabel 15000 2400 0    50   Input ~ 0
 opy3
-Text GLabel 2250 2450 0    50   Input ~ 0
-s15
-Text GLabel 2250 2350 0    50   Input ~ 0
-s14
-Text GLabel 2250 2250 0    50   Input ~ 0
-s13
-Text GLabel 2250 2150 0    50   Input ~ 0
-s12
-Text GLabel 2250 2050 0    50   Input ~ 0
-s11
-Text GLabel 2250 1950 0    50   Input ~ 0
-s10
-Text GLabel 2250 1850 0    50   Input ~ 0
-s9
-Text GLabel 2250 1750 0    50   Input ~ 0
-s8
-Text GLabel 2250 1650 0    50   Input ~ 0
-s7
-Text GLabel 2250 1550 0    50   Input ~ 0
-s6
-Text GLabel 2250 1450 0    50   Input ~ 0
-s5
-Text GLabel 2250 1350 0    50   Input ~ 0
-s4
-Text GLabel 2250 1250 0    50   Input ~ 0
-s3
-Text GLabel 2250 1150 0    50   Input ~ 0
-s2
-Text GLabel 2250 1050 0    50   Input ~ 0
-s1
-Text GLabel 2250 950  0    50   Input ~ 0
-s0
-$Comp
-L Connector_Generic:Conn_01x16 J2
-U 1 1 5CADB34A
-P 2450 1650
-F 0 "J2" H 2530 1642 50  0000 L CNN
-F 1 "Conn_01x16" H 2530 1551 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x16_P1.27mm_Vertical" H 2450 1650 50  0001 C CNN
-F 3 "~" H 2450 1650 50  0001 C CNN
-	1    2450 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise J1
-U 1 1 5CAD3D15
-P 1150 1650
-F 0 "J1" H 1200 2567 50  0000 C CNN
-F 1 "Conn_02x16_Counter_Clockwise" H 1200 2476 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x16_P1.27mm_Vertical" H 1150 1650 50  0001 C CNN
-F 3 "~" H 1150 1650 50  0001 C CNN
-	1    1150 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 22400 1900
 Text GLabel 22500 1700 2    50   Input ~ 0
 sum15
@@ -4871,12 +4730,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x16 J?
 U 1 1 5DCAA822
-P 1500 4450
-F 0 "J?" H 1580 4442 50  0000 L CNN
-F 1 "Conn_01x16" H 1580 4351 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x16_P1.27mm_Vertical" H 1500 4450 50  0001 C CNN
-F 3 "~" H 1500 4450 50  0001 C CNN
-	1    1500 4450
+P 1200 1750
+F 0 "J?" H 1280 1742 50  0000 L CNN
+F 1 "Conn_01x16" H 1280 1651 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x16_P1.27mm_Vertical" H 1200 1750 50  0001 C CNN
+F 3 "~" H 1200 1750 50  0001 C CNN
+	1    1200 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5075,37 +4934,37 @@ Text Label 14100 13250 0    50   ~ 0
 kinr14
 Text Label 14100 13350 0    50   ~ 0
 kinr15
-Text GLabel 1200 3750 0    50   Input ~ 0
+Text GLabel 900  1050 0    50   Input ~ 0
 kbd0
-Text GLabel 1200 3850 0    50   Input ~ 0
+Text GLabel 900  1150 0    50   Input ~ 0
 kbd1
-Text GLabel 1200 3950 0    50   Input ~ 0
+Text GLabel 900  1250 0    50   Input ~ 0
 kbd2
-Text GLabel 1200 4050 0    50   Input ~ 0
+Text GLabel 900  1350 0    50   Input ~ 0
 kbd3
-Text GLabel 1200 4150 0    50   Input ~ 0
+Text GLabel 900  1450 0    50   Input ~ 0
 kbd4
-Text GLabel 1200 4250 0    50   Input ~ 0
+Text GLabel 900  1550 0    50   Input ~ 0
 kbd5
-Text GLabel 1200 4350 0    50   Input ~ 0
+Text GLabel 900  1650 0    50   Input ~ 0
 kbd6
-Text GLabel 1200 4450 0    50   Input ~ 0
+Text GLabel 900  1750 0    50   Input ~ 0
 kbd7
-Text GLabel 1200 4550 0    50   Input ~ 0
+Text GLabel 900  1850 0    50   Input ~ 0
 kbd8
-Text GLabel 1200 4650 0    50   Input ~ 0
+Text GLabel 900  1950 0    50   Input ~ 0
 kbd9
-Text GLabel 1200 4750 0    50   Input ~ 0
+Text GLabel 900  2050 0    50   Input ~ 0
 kbd10
-Text GLabel 1200 4850 0    50   Input ~ 0
+Text GLabel 900  2150 0    50   Input ~ 0
 kbd11
-Text GLabel 1200 4950 0    50   Input ~ 0
+Text GLabel 900  2250 0    50   Input ~ 0
 kbd12
-Text GLabel 1200 5050 0    50   Input ~ 0
+Text GLabel 900  2350 0    50   Input ~ 0
 kbd13
-Text GLabel 1200 5150 0    50   Input ~ 0
+Text GLabel 900  2450 0    50   Input ~ 0
 kbd14
-Text GLabel 1200 5250 0    50   Input ~ 0
+Text GLabel 900  2550 0    50   Input ~ 0
 kbd15
 Text GLabel 6350 10750 0    50   Input ~ 0
 addr0
@@ -5568,37 +5427,37 @@ Wire Wire Line
 Wire Wire Line
 	1100 14450 1200 14450
 Wire Wire Line
-	1200 3750 1300 3750
+	900  1050 1000 1050
 Wire Wire Line
-	1200 3850 1300 3850
+	900  1150 1000 1150
 Wire Wire Line
-	1200 3950 1300 3950
+	900  1250 1000 1250
 Wire Wire Line
-	1200 4050 1300 4050
+	900  1350 1000 1350
 Wire Wire Line
-	1200 4150 1300 4150
+	900  1450 1000 1450
 Wire Wire Line
-	1200 4250 1300 4250
+	900  1550 1000 1550
 Wire Wire Line
-	1200 4350 1300 4350
+	900  1650 1000 1650
 Wire Wire Line
-	1200 4450 1300 4450
+	900  1750 1000 1750
 Wire Wire Line
-	1200 4550 1300 4550
+	900  1850 1000 1850
 Wire Wire Line
-	1200 4650 1300 4650
+	900  1950 1000 1950
 Wire Wire Line
-	1200 4750 1300 4750
+	900  2050 1000 2050
 Wire Wire Line
-	1200 4850 1300 4850
+	900  2150 1000 2150
 Wire Wire Line
-	1200 4950 1300 4950
+	900  2250 1000 2250
 Wire Wire Line
-	1200 5050 1300 5050
+	900  2350 1000 2350
 Wire Wire Line
-	1200 5150 1300 5150
+	900  2450 1000 2450
 Wire Wire Line
-	1200 5250 1300 5250
+	900  2550 1000 2550
 Wire Wire Line
 	8150 1150 8250 1150
 Wire Wire Line
