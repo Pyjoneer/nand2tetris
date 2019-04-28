@@ -893,4 +893,13 @@ Wire Wire Line
 Wire Wire Line
 	1550 6250 1550 6150
 Connection ~ 1550 6150
+NoConn ~ 4400 6700
+NoConn ~ 4500 6700
+NoConn ~ 4600 6700
+NoConn ~ 4700 6700
+NoConn ~ 4800 6700
+Text GLabel 4050 6800 3    50   Input ~ 0
+high
+Wire Wire Line
+	4050 6700 4050 6800
 $EndSCHEMATC
