@@ -692,4 +692,214 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf" H 2150 5400 50  0001 C
 	1    2150 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2800 4450 3350 4450
+Wire Wire Line
+	2800 4550 3350 4550
+Wire Wire Line
+	2800 4650 3350 4650
+Wire Wire Line
+	2800 4750 3350 4750
+Wire Wire Line
+	2800 4850 3350 4850
+Wire Wire Line
+	2800 4950 3350 4950
+Wire Wire Line
+	2800 5050 3350 5050
+Wire Wire Line
+	2800 5150 3350 5150
+Wire Wire Line
+	2800 5250 3350 5250
+Wire Wire Line
+	2800 5350 3350 5350
+Wire Wire Line
+	2800 5450 3350 5450
+Wire Wire Line
+	2800 5550 3350 5550
+Wire Wire Line
+	2800 5650 3350 5650
+Wire Wire Line
+	2800 5750 3350 5750
+Wire Wire Line
+	2800 5850 3350 5850
+Wire Wire Line
+	2800 5950 3350 5950
+NoConn ~ 3350 6050
+NoConn ~ 3350 6150
+Wire Wire Line
+	1850 6850 1950 6850
+Connection ~ 1950 6850
+Wire Wire Line
+	1950 6850 2050 6850
+Connection ~ 2050 6850
+Wire Wire Line
+	2050 6850 2150 6850
+Connection ~ 2150 6850
+Wire Wire Line
+	2150 6850 2250 6850
+Connection ~ 2250 6850
+Wire Wire Line
+	2250 6850 2350 6850
+Connection ~ 2350 6850
+Wire Wire Line
+	2350 6850 2450 6850
+Connection ~ 2450 6850
+Wire Wire Line
+	2450 6850 2550 6850
+$Comp
+L power:GND #PWR?
+U 1 1 5CDE2311
+P 2150 6950
+F 0 "#PWR?" H 2150 6700 50  0001 C CNN
+F 1 "GND" H 2155 6777 50  0000 C CNN
+F 2 "" H 2150 6950 50  0001 C CNN
+F 3 "" H 2150 6950 50  0001 C CNN
+	1    2150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6850 2150 6950
+Wire Wire Line
+	4200 6700 4250 6700
+Wire Wire Line
+	4250 6700 4250 6850
+Connection ~ 4250 6700
+Wire Wire Line
+	4250 6700 4300 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5CDFD324
+P 4250 6850
+F 0 "#PWR?" H 4250 6600 50  0001 C CNN
+F 1 "GND" H 4255 6677 50  0000 C CNN
+F 2 "" H 4250 6850 50  0001 C CNN
+F 3 "" H 4250 6850 50  0001 C CNN
+	1    4250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4250 2150 4250
+Connection ~ 2150 4250
+Wire Wire Line
+	2150 4250 2250 4250
+Connection ~ 2250 4250
+Wire Wire Line
+	2250 4250 2350 4250
+Wire Wire Line
+	2250 4250 2250 4050
+Wire Wire Line
+	4150 4250 4150 4050
+$Comp
+L power:VCC #PWR?
+U 1 1 5CE19CDE
+P 2250 4050
+F 0 "#PWR?" H 2250 3900 50  0001 C CNN
+F 1 "VCC" H 2267 4223 50  0000 C CNN
+F 2 "" H 2250 4050 50  0001 C CNN
+F 3 "" H 2250 4050 50  0001 C CNN
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CE1AB20
+P 4150 4050
+F 0 "#PWR?" H 4150 3900 50  0001 C CNN
+F 1 "VCC" H 4167 4223 50  0000 C CNN
+F 2 "" H 4150 4050 50  0001 C CNN
+F 3 "" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4450 1350 4450
+Wire Wire Line
+	1550 4550 1350 4550
+Wire Wire Line
+	1550 4650 1350 4650
+Wire Wire Line
+	1550 4750 1350 4750
+Wire Wire Line
+	1550 4850 1350 4850
+Wire Wire Line
+	1550 4950 1350 4950
+Wire Wire Line
+	1550 5050 1350 5050
+Wire Wire Line
+	1550 5150 1350 5150
+Wire Wire Line
+	1550 5250 1350 5250
+Wire Wire Line
+	1550 5350 1350 5350
+Wire Wire Line
+	1550 5450 1350 5450
+Wire Wire Line
+	1550 5550 1350 5550
+Wire Wire Line
+	1550 5650 1350 5650
+Wire Wire Line
+	1550 5750 1350 5750
+Wire Wire Line
+	1550 5850 1350 5850
+Wire Wire Line
+	1550 5950 1350 5950
+Text GLabel 1350 4450 0    50   Input ~ 0
+pc0
+Text GLabel 1350 4550 0    50   Input ~ 0
+pc1
+Text GLabel 1350 4650 0    50   Input ~ 0
+pc2
+Text GLabel 1350 4750 0    50   Input ~ 0
+pc3
+Text GLabel 1350 4850 0    50   Input ~ 0
+pc4
+Text GLabel 1350 4950 0    50   Input ~ 0
+pc5
+Text GLabel 1350 5050 0    50   Input ~ 0
+pc6
+Text GLabel 1350 5150 0    50   Input ~ 0
+pc7
+Text GLabel 1350 5250 0    50   Input ~ 0
+pc8
+Text GLabel 1350 5350 0    50   Input ~ 0
+pc9
+Text GLabel 1350 5450 0    50   Input ~ 0
+pc10
+Text GLabel 1350 5550 0    50   Input ~ 0
+pc11
+Text GLabel 1350 5650 0    50   Input ~ 0
+pc12
+Text GLabel 1350 5750 0    50   Input ~ 0
+pc13
+Text GLabel 1350 5850 0    50   Input ~ 0
+pc14
+Text GLabel 1350 5950 0    50   Input ~ 0
+pc15
+Text GLabel 1400 6150 0    50   Input ~ 0
+low
+Wire Wire Line
+	1550 6150 1400 6150
+Text GLabel 1150 6450 0    50   Input ~ 0
+clk
+Wire Wire Line
+	1150 6450 1500 6450
+Wire Wire Line
+	1550 6350 1500 6350
+Wire Wire Line
+	1500 6350 1500 6450
+Connection ~ 1500 6450
+Wire Wire Line
+	1500 6450 1550 6450
+Wire Wire Line
+	1550 6250 1550 6150
+Connection ~ 1550 6150
+NoConn ~ 4400 6700
+NoConn ~ 4500 6700
+NoConn ~ 4600 6700
+NoConn ~ 4700 6700
+NoConn ~ 4800 6700
+Text GLabel 4050 6800 3    50   Input ~ 0
+high
+Wire Wire Line
+	4050 6700 4050 6800
 $EndSCHEMATC
