@@ -14,234 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4500 1050
-Wire Wire Line
-	4500 1050 6150 1050
-Text GLabel 800  1550 0    50   Input ~ 0
-opx0
-Text GLabel 800  1650 0    50   Input ~ 0
-opx1
-Text GLabel 800  1750 0    50   Input ~ 0
-opx2
-Text GLabel 800  1850 0    50   Input ~ 0
-opx3
-Text GLabel 800  2050 0    50   Input ~ 0
-opy0
-Text GLabel 800  2150 0    50   Input ~ 0
-opy1
-Text GLabel 800  2250 0    50   Input ~ 0
-opy2
-Text GLabel 800  2350 0    50   Input ~ 0
-opy3
-Connection ~ 4500 2800
-Wire Wire Line
-	4500 2800 6150 2800
-NoConn ~ 6650 1850
-Text GLabel 6650 1650 2    50   Input ~ 0
-sum15
-Text GLabel 6650 1550 2    50   Input ~ 0
-sum14
-Text GLabel 6650 1450 2    50   Input ~ 0
-sum13
-Text GLabel 6650 1350 2    50   Input ~ 0
-sum12
-Text GLabel 5000 1650 2    50   Input ~ 0
-sum11
-Text GLabel 5000 1550 2    50   Input ~ 0
-sum10
-Text GLabel 5000 1450 2    50   Input ~ 0
-sum9
-Text GLabel 5000 1350 2    50   Input ~ 0
-sum8
-Text GLabel 3400 1650 2    50   Input ~ 0
-sum7
-Text GLabel 3400 1550 2    50   Input ~ 0
-sum6
-Text GLabel 3400 1450 2    50   Input ~ 0
-sum5
-Text GLabel 3400 1350 2    50   Input ~ 0
-sum4
-Text GLabel 1800 1650 2    50   Input ~ 0
-sum3
-Text GLabel 1800 1550 2    50   Input ~ 0
-sum2
-Text GLabel 1800 1450 2    50   Input ~ 0
-sum1
-Text GLabel 1800 1350 2    50   Input ~ 0
-sum0
-Text GLabel 5650 2350 0    50   Input ~ 0
-opy15
-Text GLabel 5650 1850 0    50   Input ~ 0
-opx15
-Text GLabel 5650 2250 0    50   Input ~ 0
-opy14
-Text GLabel 5650 1750 0    50   Input ~ 0
-opx14
-Text GLabel 5650 2150 0    50   Input ~ 0
-opy13
-Text GLabel 5650 1650 0    50   Input ~ 0
-opx13
-Text GLabel 5650 2050 0    50   Input ~ 0
-opy12
-Text GLabel 5650 1550 0    50   Input ~ 0
-opx12
-Wire Wire Line
-	6150 2800 6150 2650
-Text GLabel 4000 2350 0    50   Input ~ 0
-opy11
-Text GLabel 4000 1850 0    50   Input ~ 0
-opx11
-Text GLabel 4000 2250 0    50   Input ~ 0
-opy10
-Text GLabel 4000 1750 0    50   Input ~ 0
-opx10
-Text GLabel 4000 2150 0    50   Input ~ 0
-opy9
-Text GLabel 4000 1650 0    50   Input ~ 0
-opx9
-Text GLabel 4000 2050 0    50   Input ~ 0
-opy8
-Text GLabel 4000 1550 0    50   Input ~ 0
-opx8
-Wire Wire Line
-	4500 2650 4500 2800
-Wire Wire Line
-	3550 2800 4500 2800
-Wire Wire Line
-	2900 2800 3550 2800
-Connection ~ 2900 2800
-Wire Wire Line
-	2900 2650 2900 2800
-Wire Wire Line
-	1300 2800 2900 2800
-Wire Wire Line
-	1300 1050 2900 1050
-Connection ~ 2900 1050
-Wire Wire Line
-	3550 1050 2900 1050
-Wire Wire Line
-	3550 1050 4500 1050
-Text GLabel 2400 2350 0    50   Input ~ 0
-opy7
-Text GLabel 2400 1850 0    50   Input ~ 0
-opx7
-Text GLabel 2400 2250 0    50   Input ~ 0
-opy6
-Text GLabel 2400 1750 0    50   Input ~ 0
-opx6
-Text GLabel 2400 2150 0    50   Input ~ 0
-opy5
-Text GLabel 2400 1650 0    50   Input ~ 0
-opx5
-Text GLabel 2400 2050 0    50   Input ~ 0
-opy4
-Text GLabel 2400 1550 0    50   Input ~ 0
-opx4
-NoConn ~ 800  1350
-Connection ~ 3550 1050
-Wire Wire Line
-	3550 700  3550 1050
-Connection ~ 3550 2800
-Wire Wire Line
-	3550 2800 3550 2850
-$Comp
-L power:GND #PWR?
-U 1 1 5D0BB0B1
-P 3550 2850
-AR Path="/5D0BB0B1" Ref="#PWR?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3550 2600 50  0001 C CNN
-F 1 "GND" H 3555 2677 50  0000 C CNN
-F 2 "" H 3550 2850 50  0001 C CNN
-F 3 "" H 3550 2850 50  0001 C CNN
-	1    3550 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2800 1300 2650
-$Comp
-L 74xx:74LS283 U?
-U 1 1 5D0BB0B8
-P 6150 1850
-AR Path="/5D0BB0B8" Ref="U?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0B8" Ref="U?"  Part="1" 
-F 0 "U?" H 6150 2828 50  0000 C CNN
-F 1 "74LS283" H 6150 2737 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6150 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 6150 1850 50  0001 C CNN
-	1    6150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS283 U?
-U 1 1 5D0BB0BE
-P 4500 1850
-AR Path="/5D0BB0BE" Ref="U?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0BE" Ref="U?"  Part="1" 
-F 0 "U?" H 4500 2828 50  0000 C CNN
-F 1 "74LS283" H 4500 2737 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4500 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 4500 1850 50  0001 C CNN
-	1    4500 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5D0BB0C4
-P 3550 700
-AR Path="/5D0BB0C4" Ref="#PWR?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3550 550 50  0001 C CNN
-F 1 "+5V" H 3565 873 50  0000 C CNN
-F 2 "" H 3550 700 50  0001 C CNN
-F 3 "" H 3550 700 50  0001 C CNN
-	1    3550 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS283 U?
-U 1 1 5D0BB0CA
-P 2900 1850
-AR Path="/5D0BB0CA" Ref="U?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0CA" Ref="U?"  Part="1" 
-F 0 "U?" H 2900 2828 50  0000 C CNN
-F 1 "74LS283" H 2900 2737 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2900 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 2900 1850 50  0001 C CNN
-	1    2900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS283 U?
-U 1 1 5D0BB0D0
-P 1300 1850
-AR Path="/5D0BB0D0" Ref="U?"  Part="1" 
-AR Path="/5D0AFC40/5D0BB0D0" Ref="U?"  Part="1" 
-F 0 "U?" H 1300 2828 50  0000 C CNN
-F 1 "74LS283" H 1300 2737 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1300 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 1300 1850 50  0001 C CNN
-	1    1300 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 1350 2100 1350
-Wire Wire Line
-	2100 1350 2100 1850
-Wire Wire Line
-	1800 1850 2100 1850
-Wire Wire Line
-	3700 1850 3700 1350
-Wire Wire Line
-	3700 1350 4000 1350
-Wire Wire Line
-	3400 1850 3700 1850
-Wire Wire Line
-	5350 1850 5350 1350
-Wire Wire Line
-	5350 1350 5650 1350
-Wire Wire Line
-	5000 1850 5350 1850
 Wire Wire Line
 	2250 3500 2400 3500
 Wire Wire Line
@@ -591,6 +363,374 @@ Text Label 1400 7400 0    50   ~ 0
 oalu14
 Text Label 1400 7600 0    50   ~ 0
 oalu15
+Text GLabel 1150 1500 0    50   Input ~ 0
+opx0
+Text GLabel 1150 1600 0    50   Input ~ 0
+opx1
+Text GLabel 1150 1700 0    50   Input ~ 0
+opx2
+Text GLabel 1150 1800 0    50   Input ~ 0
+opx3
+Text GLabel 1150 2000 0    50   Input ~ 0
+opy0
+Text GLabel 1150 2100 0    50   Input ~ 0
+opy1
+Text GLabel 1150 2200 0    50   Input ~ 0
+opy2
+Text GLabel 1150 2300 0    50   Input ~ 0
+opy3
+NoConn ~ 8550 1800
+Text GLabel 8650 1600 2    50   Input ~ 0
+sum15
+Text GLabel 8650 1500 2    50   Input ~ 0
+sum14
+Text GLabel 8650 1400 2    50   Input ~ 0
+sum13
+Text GLabel 8650 1300 2    50   Input ~ 0
+sum12
+Text GLabel 6650 1600 2    50   Input ~ 0
+sum11
+Text GLabel 6650 1500 2    50   Input ~ 0
+sum10
+Text GLabel 6650 1400 2    50   Input ~ 0
+sum9
+Text GLabel 6650 1300 2    50   Input ~ 0
+sum8
+Text GLabel 4600 1600 2    50   Input ~ 0
+sum7
+Text GLabel 4600 1500 2    50   Input ~ 0
+sum6
+Text GLabel 4600 1400 2    50   Input ~ 0
+sum5
+Text GLabel 4600 1300 2    50   Input ~ 0
+sum4
+Text GLabel 2400 1600 2    50   Input ~ 0
+sum3
+Text GLabel 2400 1500 2    50   Input ~ 0
+sum2
+Text GLabel 2400 1400 2    50   Input ~ 0
+sum1
+Text GLabel 2400 1300 2    50   Input ~ 0
+sum0
+Text GLabel 7550 2300 0    50   Input ~ 0
+opy15
+Text GLabel 7550 1800 0    50   Input ~ 0
+opx15
+Text GLabel 7550 2200 0    50   Input ~ 0
+opy14
+Text GLabel 7550 1700 0    50   Input ~ 0
+opx14
+Text GLabel 7550 2100 0    50   Input ~ 0
+opy13
+Text GLabel 7550 1600 0    50   Input ~ 0
+opx13
+Text GLabel 7550 2000 0    50   Input ~ 0
+opy12
+Text GLabel 7550 1500 0    50   Input ~ 0
+opx12
+Text GLabel 5350 2300 0    50   Input ~ 0
+opy11
+Text GLabel 5350 1800 0    50   Input ~ 0
+opx11
+Text GLabel 5350 2200 0    50   Input ~ 0
+opy10
+Text GLabel 5350 1700 0    50   Input ~ 0
+opx10
+Text GLabel 5350 2100 0    50   Input ~ 0
+opy9
+Text GLabel 5350 1600 0    50   Input ~ 0
+opx9
+Text GLabel 5350 2000 0    50   Input ~ 0
+opy8
+Text GLabel 5350 1500 0    50   Input ~ 0
+opx8
+Text GLabel 3350 2300 0    50   Input ~ 0
+opy7
+Text GLabel 3350 1800 0    50   Input ~ 0
+opx7
+Text GLabel 3350 2200 0    50   Input ~ 0
+opy6
+Text GLabel 3350 1700 0    50   Input ~ 0
+opx6
+Text GLabel 3350 2100 0    50   Input ~ 0
+opy5
+Text GLabel 3350 1600 0    50   Input ~ 0
+opx5
+Text GLabel 3350 2000 0    50   Input ~ 0
+opy4
+Text GLabel 3350 1500 0    50   Input ~ 0
+opx4
+NoConn ~ 1250 1300
+Wire Wire Line
+	4000 2600 4000 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F52220F
+P 4000 2650
+AR Path="/5F52220F" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F52220F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 2400 50  0001 C CNN
+F 1 "GND" H 4005 2477 50  0000 C CNN
+F 2 "" H 4000 2650 50  0001 C CNN
+F 3 "" H 4000 2650 50  0001 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5F522215
+P 8050 1800
+AR Path="/5F522215" Ref="U?"  Part="1" 
+AR Path="/5D0AFC40/5F522215" Ref="U?"  Part="1" 
+F 0 "U?" H 8050 2778 50  0000 C CNN
+F 1 "74LS283" H 8050 2687 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8050 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 8050 1800 50  0001 C CNN
+	1    8050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5F52221B
+P 6000 1800
+AR Path="/5F52221B" Ref="U?"  Part="1" 
+AR Path="/5D0AFC40/5F52221B" Ref="U?"  Part="1" 
+F 0 "U?" H 6000 2778 50  0000 C CNN
+F 1 "74LS283" H 6000 2687 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6000 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 6000 1800 50  0001 C CNN
+	1    6000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5F522221
+P 4000 1800
+AR Path="/5F522221" Ref="U?"  Part="1" 
+AR Path="/5D0AFC40/5F522221" Ref="U?"  Part="1" 
+F 0 "U?" H 4000 2778 50  0000 C CNN
+F 1 "74LS283" H 4000 2687 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4000 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5F522227
+P 1750 1800
+AR Path="/5F522227" Ref="U?"  Part="1" 
+AR Path="/5D0AFC40/5F522227" Ref="U?"  Part="1" 
+F 0 "U?" H 1750 2778 50  0000 C CNN
+F 1 "74LS283" H 1750 2687 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1750 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 1750 1800 50  0001 C CNN
+	1    1750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1300 8650 1300
+Wire Wire Line
+	8550 1400 8650 1400
+Wire Wire Line
+	8550 1500 8650 1500
+Wire Wire Line
+	8550 1600 8650 1600
+Wire Wire Line
+	7100 1300 7100 1800
+Wire Wire Line
+	7100 1300 7550 1300
+Wire Wire Line
+	6500 1300 6650 1300
+Wire Wire Line
+	6500 1400 6650 1400
+Wire Wire Line
+	6500 1500 6650 1500
+Wire Wire Line
+	6500 1600 6650 1600
+Wire Wire Line
+	6500 1800 7100 1800
+Wire Wire Line
+	5350 1500 5500 1500
+Wire Wire Line
+	5350 1600 5500 1600
+Wire Wire Line
+	5350 1700 5500 1700
+Wire Wire Line
+	5350 1800 5500 1800
+Wire Wire Line
+	5350 2000 5500 2000
+Wire Wire Line
+	5350 2100 5500 2100
+Wire Wire Line
+	5350 2200 5500 2200
+Wire Wire Line
+	5350 2300 5500 2300
+Wire Wire Line
+	4900 1300 4900 1800
+Wire Wire Line
+	4900 1300 5500 1300
+Wire Wire Line
+	4500 1800 4900 1800
+Wire Wire Line
+	4500 1300 4600 1300
+Wire Wire Line
+	4500 1400 4600 1400
+Wire Wire Line
+	4500 1500 4600 1500
+Wire Wire Line
+	4500 1600 4600 1600
+Wire Wire Line
+	3350 1500 3500 1500
+Wire Wire Line
+	3350 1600 3500 1600
+Wire Wire Line
+	3350 1700 3500 1700
+Wire Wire Line
+	3350 1800 3500 1800
+Wire Wire Line
+	3350 2000 3500 2000
+Wire Wire Line
+	3350 2100 3500 2100
+Wire Wire Line
+	3350 2200 3500 2200
+Wire Wire Line
+	3350 2300 3500 2300
+Wire Wire Line
+	2250 1300 2400 1300
+Wire Wire Line
+	2250 1400 2400 1400
+Wire Wire Line
+	2250 1500 2400 1500
+Wire Wire Line
+	2250 1600 2400 1600
+Wire Wire Line
+	2900 1800 2900 1300
+Wire Wire Line
+	2900 1300 3500 1300
+Wire Wire Line
+	2250 1800 2900 1800
+Wire Wire Line
+	1150 1500 1250 1500
+Wire Wire Line
+	1150 1600 1250 1600
+Wire Wire Line
+	1150 1700 1250 1700
+Wire Wire Line
+	1150 1800 1250 1800
+Wire Wire Line
+	1150 2000 1250 2000
+Wire Wire Line
+	1150 2100 1250 2100
+Wire Wire Line
+	1150 2200 1250 2200
+Wire Wire Line
+	1150 2300 1250 2300
+$Comp
+L power:VCC #PWR?
+U 1 1 5F52225E
+P 4000 800
+AR Path="/5F52225E" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F52225E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 650 50  0001 C CNN
+F 1 "VCC" H 4017 973 50  0000 C CNN
+F 2 "" H 4000 800 50  0001 C CNN
+F 3 "" H 4000 800 50  0001 C CNN
+	1    4000 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 800  4000 1000
+$Comp
+L power:VCC #PWR?
+U 1 1 5F522265
+P 6000 800
+AR Path="/5F522265" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F522265" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 650 50  0001 C CNN
+F 1 "VCC" H 6017 973 50  0000 C CNN
+F 2 "" H 6000 800 50  0001 C CNN
+F 3 "" H 6000 800 50  0001 C CNN
+	1    6000 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 800  6000 1000
+$Comp
+L power:VCC #PWR?
+U 1 1 5F52226C
+P 8050 800
+AR Path="/5F52226C" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F52226C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8050 650 50  0001 C CNN
+F 1 "VCC" H 8067 973 50  0000 C CNN
+F 2 "" H 8050 800 50  0001 C CNN
+F 3 "" H 8050 800 50  0001 C CNN
+	1    8050 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 800  8050 1000
+$Comp
+L power:VCC #PWR?
+U 1 1 5F522273
+P 1750 800
+AR Path="/5F522273" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F522273" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 650 50  0001 C CNN
+F 1 "VCC" H 1767 973 50  0000 C CNN
+F 2 "" H 1750 800 50  0001 C CNN
+F 3 "" H 1750 800 50  0001 C CNN
+	1    1750 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 800  1750 1000
+Wire Wire Line
+	6000 2600 6000 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F52227B
+P 6000 2650
+AR Path="/5F52227B" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F52227B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 2400 50  0001 C CNN
+F 1 "GND" H 6005 2477 50  0000 C CNN
+F 2 "" H 6000 2650 50  0001 C CNN
+F 3 "" H 6000 2650 50  0001 C CNN
+	1    6000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2600 8050 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F522282
+P 8050 2650
+AR Path="/5F522282" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F522282" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8050 2400 50  0001 C CNN
+F 1 "GND" H 8055 2477 50  0000 C CNN
+F 2 "" H 8050 2650 50  0001 C CNN
+F 3 "" H 8050 2650 50  0001 C CNN
+	1    8050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2600 1750 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F522289
+P 1750 2650
+AR Path="/5F522289" Ref="#PWR?"  Part="1" 
+AR Path="/5D0AFC40/5F522289" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 2400 50  0001 C CNN
+F 1 "GND" H 1755 2477 50  0000 C CNN
+F 2 "" H 1750 2650 50  0001 C CNN
+F 3 "" H 1750 2650 50  0001 C CNN
+	1    1750 2650
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1300 2950 1300 7500
 $EndSCHEMATC

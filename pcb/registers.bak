@@ -332,7 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2650 4700 2650
 Text GLabel 2300 3250 0    50   Input ~ 0
-CLK
+clk
 Wire Wire Line
 	2300 3250 2350 3250
 Wire Wire Line
@@ -407,38 +407,6 @@ Wire Wire Line
 	7250 3600 7350 3600
 Text GLabel 5350 3100 0    50   Input ~ 0
 ld
-Text GLabel 4700 1150 2    50   Input ~ 0
-ar0
-Text GLabel 4700 1250 2    50   Input ~ 0
-ar1
-Text GLabel 4700 1350 2    50   Input ~ 0
-ar2
-Text GLabel 4700 1450 2    50   Input ~ 0
-ar3
-Text GLabel 4700 1550 2    50   Input ~ 0
-ar4
-Text GLabel 4700 1650 2    50   Input ~ 0
-ar5
-Text GLabel 4700 1750 2    50   Input ~ 0
-ar6
-Text GLabel 4700 1850 2    50   Input ~ 0
-ar7
-Text GLabel 4700 1950 2    50   Input ~ 0
-ar8
-Text GLabel 4700 2050 2    50   Input ~ 0
-ar9
-Text GLabel 4700 2150 2    50   Input ~ 0
-ar10
-Text GLabel 4700 2250 2    50   Input ~ 0
-ar11
-Text GLabel 4700 2350 2    50   Input ~ 0
-ar12
-Text GLabel 4700 2450 2    50   Input ~ 0
-ar13
-Text GLabel 4700 2550 2    50   Input ~ 0
-ar14
-Text GLabel 4700 2650 2    50   Input ~ 0
-ar15
 Text GLabel 1050 1150 0    50   Input ~ 0
 ins0
 Text GLabel 1050 1250 0    50   Input ~ 0
@@ -533,38 +501,6 @@ Text GLabel 6200 2600 0    50   Input ~ 0
 oalu14
 Text GLabel 6200 2700 0    50   Input ~ 0
 oalu15
-Text GLabel 7750 1200 2    50   Input ~ 0
-x0
-Text GLabel 7750 1300 2    50   Input ~ 0
-x1
-Text GLabel 7750 1400 2    50   Input ~ 0
-x2
-Text GLabel 7750 1500 2    50   Input ~ 0
-x3
-Text GLabel 7750 1600 2    50   Input ~ 0
-x4
-Text GLabel 7750 1700 2    50   Input ~ 0
-x5
-Text GLabel 7750 1800 2    50   Input ~ 0
-x6
-Text GLabel 7750 1900 2    50   Input ~ 0
-x7
-Text GLabel 7750 2000 2    50   Input ~ 0
-x8
-Text GLabel 7750 2100 2    50   Input ~ 0
-x9
-Text GLabel 7750 2200 2    50   Input ~ 0
-x10
-Text GLabel 7750 2300 2    50   Input ~ 0
-x11
-Text GLabel 7750 2400 2    50   Input ~ 0
-x12
-Text GLabel 7750 2500 2    50   Input ~ 0
-x13
-Text GLabel 7750 2600 2    50   Input ~ 0
-x14
-Text GLabel 7750 2700 2    50   Input ~ 0
-x15
 Wire Wire Line
 	7600 1200 7750 1200
 Wire Wire Line
@@ -607,4 +543,68 @@ Text GLabel 2300 3050 0    50   Input ~ 0
 la
 Text GLabel 1450 4500 3    50   Input ~ 0
 insa
+Text GLabel 7750 1200 2    50   Input ~ 0
+dr0
+Text GLabel 7750 1300 2    50   Input ~ 0
+dr1
+Text GLabel 7750 1400 2    50   Input ~ 0
+dr2
+Text GLabel 7750 1500 2    50   Input ~ 0
+dr3
+Text GLabel 7750 1600 2    50   Input ~ 0
+dr4
+Text GLabel 7750 1700 2    50   Input ~ 0
+dr5
+Text GLabel 7750 1800 2    50   Input ~ 0
+dr6
+Text GLabel 7750 1900 2    50   Input ~ 0
+dr7
+Text GLabel 7750 2000 2    50   Input ~ 0
+dr8
+Text GLabel 7750 2100 2    50   Input ~ 0
+dr9
+Text GLabel 7750 2200 2    50   Input ~ 0
+dr10
+Text GLabel 7750 2300 2    50   Input ~ 0
+dr11
+Text GLabel 7750 2400 2    50   Input ~ 0
+dr12
+Text GLabel 7750 2500 2    50   Input ~ 0
+dr13
+Text GLabel 7750 2600 2    50   Input ~ 0
+dr14
+Text GLabel 7750 2700 2    50   Input ~ 0
+dr15
+Text GLabel 4700 1150 2    50   Input ~ 0
+addr0
+Text GLabel 4700 1250 2    50   Input ~ 0
+addr1
+Text GLabel 4700 1350 2    50   Input ~ 0
+addr2
+Text GLabel 4700 1450 2    50   Input ~ 0
+addr3
+Text GLabel 4700 1550 2    50   Input ~ 0
+addr4
+Text GLabel 4700 1650 2    50   Input ~ 0
+addr5
+Text GLabel 4700 1750 2    50   Input ~ 0
+addr6
+Text GLabel 4700 1850 2    50   Input ~ 0
+addr7
+Text GLabel 4700 1950 2    50   Input ~ 0
+addr8
+Text GLabel 4700 2050 2    50   Input ~ 0
+addr9
+Text GLabel 4700 2150 2    50   Input ~ 0
+addr10
+Text GLabel 4700 2250 2    50   Input ~ 0
+addr11
+Text GLabel 4700 2350 2    50   Input ~ 0
+addr12
+Text GLabel 4700 2450 2    50   Input ~ 0
+addr13
+Text GLabel 4700 2550 2    50   Input ~ 0
+addr14
+Text GLabel 4700 2650 2    50   Input ~ 0
+addr15
 $EndSCHEMATC

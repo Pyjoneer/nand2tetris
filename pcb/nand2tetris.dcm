@@ -14,4 +14,15 @@ $CMP SN74CBT16233
 F http://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf
 $ENDCMP
 #
+$CMP SN74LVCH16374A
+D 16-Bit Edge-Triggered D-Type Flip-Flop With 3-State Outputs
+K register
+F http://www.ti.com/lit/ds/symlink/sn74lvch16374a.pdf
+$ENDCMP
+#
+$CMP SST39VF401C-70-4I-EKE-T
+D 4 Mbit (x16) Multi-Purpose Flash Plus
+F https://cz.mouser.com/datasheet/2/268/20005053B-1512272.pdf
+$ENDCMP
+#
 #End Doc Library
