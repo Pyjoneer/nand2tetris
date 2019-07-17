@@ -1,4 +1,5 @@
 import nand2tetris.Symbols
+import nand2tetris.Instruction._
 
 import scalaz._
 import Scalaz._
@@ -6,7 +7,10 @@ import scalaz.std.string.stringInstance
 
 val symbols = Symbols.predef union IMap()
 
-symbols.insert("d", 10)
+val ss = symbols + ("d", 10) // symbols.insert("d", 10)
 
-symbols.lookup("d")
+symbols.lookup("THIS")
+ss.lookup("d")
+println("jej")
 
+C(1, 1, 1, 1).toBinaryString

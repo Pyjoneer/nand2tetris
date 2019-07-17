@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-06.iml" filepath="$PROJECT_DIR$/.idea/modules/root-06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-06-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-06-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assembler.iml" filepath="$PROJECT_DIR$/.idea/modules/assembler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assembler-build.iml" filepath="$PROJECT_DIR$/.idea/modules/assembler-build.iml" />
     </modules>
   </component>
 </project>
