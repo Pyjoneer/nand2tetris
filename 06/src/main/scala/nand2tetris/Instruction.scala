@@ -104,37 +104,40 @@ object Instruction {
   }
 
   def binComp(mnemonic: String): Error \/ Int = {
+    // S=A when a=0
+    // S=D when a=1
+    // relevant for disassembler
 
-    val S = "(A|M)".r
-    val Not = "\\!(A|M)".r
-    val Minus = "\\-(A|M)".r
-    val PlusOne = "(A|M)\\+1".r
-    val MinusOne = "(A|M)\\-1".r
-    val PlusD = "D\\+(A|M)".r
-    val DMinusS = "D\\-(A|M)".r
-    val SMinusD = "(A|M)\\-D".r
-    val And = "D\\&(A|M)".r
-    val Or = "D\\|(A|M)".r
+    val `S` = "(A|M)".r
+    val `!S` = "\\!(A|M)".r
+    val `-S` = "\\-(A|M)".r
+    val `S+1` = "(A|M)\\+1".r
+    val `S-1` = "(A|M)\\-1".r
+    val `D+S` = "D\\+(A|M)".r
+    val `D-S` = "D\\-(A|M)".r
+    val `S-D` = "(A|M)\\-D".r
+    val `D&S` = "D\\&(A|M)".r
+    val `D|S` = "D\\|(A|M)".r
 
     mnemonic match {
       case "0" => 42.right
       case "1" => 63.right
       case "-1" => 58.right
-      case S(_) => 12.right
+      case `S`(_) => 12.right
       case "A" => 48.right
       case "!D" => 13.right
-      case Not(_) => 49.right
+      case `!S`(_) => 49.right
       case "-D" => 15.right
-      case Minus(_) => 51.right
+      case `-S`(_) => 51.right
       case "D+1" => 31.right
-      case PlusOne(_) => 55.right
+      case `S+1`(_) => 55.right
       case "D-1" => 14.right
-      case MinusOne(_) => 50.right
-      case PlusD(_) => 2.right
-      case DMinusS(_) => 19.right
-      case SMinusD(_) => 7.right
-      case And(_) => 0.right
-      case Or(_) => 21.right
+      case `S-1`(_) => 50.right
+      case `D+S`(_) => 2.right
+      case `D-S`(_) => 19.right
+      case `S-D`(_) => 7.right
+      case `D&S`(_) => 0.right
+      case `D|S`(_) => 21.right
       case _ => -\/(InvalidCompMnemonic(mnemonic))
     }
   }
