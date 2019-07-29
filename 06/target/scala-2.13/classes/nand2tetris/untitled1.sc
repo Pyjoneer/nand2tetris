@@ -58,12 +58,28 @@ val NoDestNoJump = "(\\S+)".r
   case _ => false
 }
 
-val Binary = "(\\S)(+|-)(\\S)".r
+val Unary = "(\\-|\\!)?(\\S)".r
+val Binary = "(\\S)(\\+|\\-|\\&|\\|)(\\S)".r
 
-"d+1" match {
+"0" match {
+  case Unary(null, a) =>
+    println(s"unary: a=$a")
+    true
+  case Unary(op, a) =>
+    println(s"unary: a=$a, op=$op")
+    true
   case Binary(a, op, b) =>
-    println(s"a=$a, b=$b, op=$op")
+    println(s"binary: a=$a, b=$b, op=$op")
     true
   case _ => false
 }
 
+val rJump = "(\\S)".r
+
+
+val DorM = "(D|A)".r
+
+"D" match {
+  case DorM(_) => true
+  case _ => false
+}

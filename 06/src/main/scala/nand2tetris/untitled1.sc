@@ -76,3 +76,13 @@ val Binary = "(\\S)(\\+|\\-|\\&|\\|)(\\S)".r
 
 val rJump = "(\\S)".r
 
+val NotAorM = "\\!(A|M)".r
+val AorM = "(A|M)".r
+val AorMPlusOne = "(A|M)\\+1".r
+
+"M+1" match {
+  case AorM(_) => true
+  case NotAorM(_) => "cdsacsda"
+  case AorMPlusOne(_) => "a+1"
+  case _ => false
+}

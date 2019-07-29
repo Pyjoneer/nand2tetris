@@ -53,21 +53,6 @@ object Instruction {
 
   object C {
 
-    val p: Int ==>> Jump = ???
-
-    trait Jump {
-      def bin: Int
-    }
-
-    case object JGT extends Jump {
-      override def bin: Int = 1
-    }
-
-    object Jump {
-      def apply()
-    }
-
-
     def apply(input: String): Maybe[C] = {
 
       val Unary = "(\\-|\\!)?(\\S)".r
@@ -96,7 +81,6 @@ object Instruction {
   }
 
   def binJump(mnemonic: String): Error \/ Int = mnemonic match {
-    case "null" => \/-(0)
     case "JGT" => 1.right
     case "JEQ" => 2.right
     case "JGE" => 3.right
@@ -119,6 +103,40 @@ object Instruction {
     case _ => -\/(InvalidDestMnemonic(mnemonic))
   }
 
-  def binDest( mnemonic: String): Error \/ Int = ???
+  def binComp(mnemonic: String): Error \/ Int = {
+
+    val S = "(A|M)".r
+    val Not = "\\!(A|M)".r
+    val Minus = "\\-(A|M)".r
+    val PlusOne = "(A|M)\\+1".r
+    val MinusOne = "(A|M)\\-1".r
+    val PlusD = "D\\+(A|M)".r
+    val DMinusS = "D\\-(A|M)".r
+    val SMinusD = "(A|M)\\-D".r
+    val And = "D\\&(A|M)".r
+    val Or = "D\\|(A|M)".r
+
+    mnemonic match {
+      case "0" => 42.right
+      case "1" => 63.right
+      case "-1" => 58.right
+      case S(_) => 12.right
+      case "A" => 48.right
+      case "!D" => 13.right
+      case Not(_) => 49.right
+      case "-D" => 15.right
+      case Minus(_) => 51.right
+      case "D+1" => 31.right
+      case PlusOne(_) => 55.right
+      case "D-1" => 14.right
+      case MinusOne(_) => 50.right
+      case PlusD(_) => 2.right
+      case DMinusS(_) => 19.right
+      case SMinusD(_) => 7.right
+      case And(_) => 0.right
+      case Or(_) => 21.right
+      case _ => -\/(InvalidCompMnemonic(mnemonic))
+    }
+  }
 
 }
