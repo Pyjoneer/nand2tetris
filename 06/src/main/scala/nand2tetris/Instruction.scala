@@ -85,7 +85,7 @@ object Instruction {
       d <- binDest(dest)
       c <- binComp(comp)
       j <- binJump(jump)
-    } yield C(d, c, j, "0")
+    } yield C(d, c._1, j, c._2)
   }
 
   def binJump(m: String): Error \/ String = m match {
@@ -112,7 +112,7 @@ object Instruction {
     case _ => -\/(InvalidDestMnemonic(m))
   }
 
-  def binComp(m: String): Error \/ String = {
+  def binComp(m: String): Error \/ (String, String) = {
     // S=A when a=0
     // S=D when a=1
     // relevant for disassembler
@@ -129,24 +129,34 @@ object Instruction {
     val `D|S` = "D\\|(A|M)".r
 
     m match {
-      case "0" => "101010".right
-      case "1" => "111111".right
-      case "-1" => "111010".right
-      case "D" => "001100".right
-      case `S`(_) => "110000".right
-      case "!D" => "001101".right
-      case `!S`(_) => "110001".right
-      case "-D" => "001111".right
-      case `-S`(_) => "110011".right
-      case "D+1" => " 011111".right
-      case `S+1`(_) => "110111".right
-      case "D-1" => "001110".right
-      case `S-1`(_) => "110010".right
-      case `D+S`(_) => "000010".right
-      case `D-S`(_) => "010011".right
-      case `S-D`(_) => "000111".right
-      case `D&S`(_) => "000000".right
-      case `D|S`(_) => "010101".right
+      case "0" => ("101010", "0").right
+      case "1" => ("111111", "0").right
+      case "-1" => ("111010", "0").right
+      case "D" => ("001100", "0").right
+      case "A" => ("110000", "0").right
+      case "M" => ("110000", "1").right
+      case "!D" => ("001101", "0").right
+      case "!A" => ("110001", "0").right
+      case "!M" => ("110001", "1").right
+      case "-D" => ("001111", "0").right
+      case "-A" => ("110011", "0").right
+      case "-M" => ("110011", "1").right
+      case "D+1" => ("011111", "0").right
+      case "A+1" => ("110111", "0").right
+      case "M+1" => ("110111", "1").right
+      case "D-1" => ("001110", "0").right
+      case "A-1" => ("110010", "0").right
+      case "M-1" => ("110010", "1").right
+      case "D+A" => ("000010", "0").right
+      case "D+M" => ("000010", "1").right
+      case "D-A" => ("010011", "0").right
+      case "D-M" => ("010011", "1").right
+      case "A-D" => ("000111", "0").right
+      case "M-D" => ("000111", "1").right
+      case "D&A" => ("000000", "0").right
+      case "D&M" => ("000000", "1").right
+      case "D|A" => ("010101", "0").right
+      case "D|M" => ("010101", "1").right
       case _ => -\/(InvalidCompMnemonic(m))
     }
   }
