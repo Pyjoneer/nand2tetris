@@ -13,4 +13,8 @@ symbols.lookup("THIS")
 ss.lookup("d")
 println("jej")
 
-C(1, 1, 1, 1).toBinaryString
+C(1, 1, 1, 1)
+
+val p = (4 << 6) + (2 << 3)
+
+p.toBinaryString

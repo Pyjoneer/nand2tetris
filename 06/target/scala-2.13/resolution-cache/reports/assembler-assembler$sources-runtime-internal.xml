@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190728141628"/>
+		date="20190729205342"/>
 	<dependencies>
 		<module organisation="dev.zio" name="zio_2.13">
 			<revision name="1.0.0-RC10-1" status="release" pubdate="20190712162956" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://zio.dev" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">

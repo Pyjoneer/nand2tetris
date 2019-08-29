@@ -1,25 +1,24 @@
 package nand2tetris
 
+import nand2tetris.Instruction.{A, C}
 import scalaz._
-
-object Pattern {
-
-  val A = "@(\\S+)".r
-
-  object C {
-    val Full = "(\\S+)=(\\S+);(\\S+)".r
-    val DestSemiNoJump = "(\\S+)=(\\S+);".r
-    val DestNoJump = "(\\S+)=(\\S+)".r
-    val NoDest = "(\\S+);(\\S+)".r
-    val NoDestSemiNoJump = "(\\S+);".r
-    val NoDestNoJump = "(\\S+)".r
-  }
-
-}
+import Scalaz._
 
 object Parser {
 
-  import Pattern._
+  // TODO make it better
+  def parseInstruction(ins: String): Error \/ Instruction = {
+    A(ins) match {
+      case -\/(e) => C(ins).map(_.asInstanceOf[Instruction])
+      case \/-(a) => a.asInstanceOf[Instruction].right[Error]
+    }
 
-  def parse(ins: String): Maybe[Instruction] = ???
+  }
+
+  def parse(lines: List[String], ins: List[Error \/ Instruction]): List[Error \/ Instruction] = lines
+          .filterNot(_.startsWith("//")).filterNot(_.trim.isEmpty) match {
+    case x :: xs => parse(xs,  parseInstruction(x.replaceAll("//.*", "").trim) :: ins)
+    case Nil => ins
+  }
+
 }

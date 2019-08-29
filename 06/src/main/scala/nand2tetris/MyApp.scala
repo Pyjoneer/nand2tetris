@@ -3,9 +3,10 @@ package nand2tetris
 import nand2tetris.Instruction.{A, C}
 
 object MyApp extends App {
-  val c = C(1, 1, 1, 1)
-  println(c.binaryString)
+  println(C("D=D+A;JGT").map(_.binaryString))
+  println(C("D=D+A").map(_.binaryString))
+  println(C("D=0;JGT").map(_.binaryString))
+  println(C("D=0").map(_.binaryString))
+  println(C("0").map(_.binaryString))
 
-
-  println(A("@10"))
 }
